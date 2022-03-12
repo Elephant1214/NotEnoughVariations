@@ -1,4 +1,4 @@
-# NotEnoughVariations
+# Not Enough Variations
 A simple Minecraft mod for Forge that adds seemingly missing variations of vanilla blocks
 
 ## Building from Source
