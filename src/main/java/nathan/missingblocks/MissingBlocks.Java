@@ -20,10 +20,5 @@ public class MissingBlocks {
 
     @SidedProxy(clientSide = "nathan.missingblocks.proxy.ClientProxy", serverSide = "nathan.missingblocks.proxy.ServerProxy")
     public static CommonProxy proxy;
-
-    @Mod.EventHandler
-    public static void init(FMLInitializationEvent event) {
-        Blocks.FIRE.setFireInfo(BlockInit.white_wool_stairs, 30, 60);
-    }
-
+    
 }
