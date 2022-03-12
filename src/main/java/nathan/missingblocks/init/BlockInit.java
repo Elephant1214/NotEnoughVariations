@@ -69,7 +69,4 @@ public class BlockInit {
     public static final Block red_concrete_slab = new BlockBaseHalfSlab("red_concrete_slab", Blocks.CONCRETE.getDefaultState().getMaterial(), MapColor.RED, MissingBlocks.MISSING_BLOCKS, 1.8F, 1.8F, SoundType.STONE, "pickaxe", 0, (BlockSlab) BlockInit.red_concrete_slab, (BlockSlab) BlockInit.red_concrete_double_slab);
     public static final Block black_concrete_double_slab = new BlockBaseDoubleSlab("black_concrete_double_slab", Blocks.CONCRETE.getDefaultState().getMaterial(), MapColor.BLACK, 1.8F, 1.8F, SoundType.STONE, "pickaxe", 0, (BlockSlab) BlockInit.black_concrete_slab);
     public static final Block black_concrete_slab = new BlockBaseHalfSlab("black_concrete_slab", Blocks.CONCRETE.getDefaultState().getMaterial(), MapColor.BLACK, MissingBlocks.MISSING_BLOCKS, 1.8F, 1.8F, SoundType.STONE, "pickaxe", 0, (BlockSlab) BlockInit.black_concrete_slab, (BlockSlab) BlockInit.black_concrete_double_slab);
-
-    //Wool stairs
-    public static final Block white_wool_stairs = new BlockBaseWoolStairs("white_wool_stairs", Blocks.WOOL.getDefaultState(), MissingBlocks.MISSING_BLOCKS, 0.8F, 0.8F, SoundType.CLOTH);
 }
