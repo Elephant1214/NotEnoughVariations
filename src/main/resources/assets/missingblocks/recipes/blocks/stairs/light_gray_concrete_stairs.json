@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C  ",
+        "CC ",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:concrete",
+            "data": 8
+        }
+    },
+    "result": {
+        "item": "missingblocks:light_gray_concrete_stairs",
+        "count": 4,
+        "data": 0
+    }
+}
