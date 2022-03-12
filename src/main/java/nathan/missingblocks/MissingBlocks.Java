@@ -14,7 +14,7 @@ public class MissingBlocks {
 
     public static final String MODID = "missingblocks";
     public static final String NAME = "Missing Blocks";
-    public static final String VERSION = "0.2.0";
+    public static final String VERSION = "0.1.0";
 
     public static final CreativeTabs MISSING_BLOCKS = new MissingBlocksTab("missing_blocks");
 
