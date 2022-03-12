@@ -1,7 +1,7 @@
 {
     "variants": {
         "variant=default": {
-            "model": "black_concrete"
+            "model": "gray_concrete"
         }
     }
 }

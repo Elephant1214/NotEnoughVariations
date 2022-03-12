@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "missingblocks:slabs/pink/half_slab_pink_concrete"
+        },
+        "half=top,variant=default": {
+            "model": "missingblocks:slabs/pink/upper_slab_pink_concrete"
+        }
+    }
+}
