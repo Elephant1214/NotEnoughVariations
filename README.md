@@ -1,7 +1,8 @@
-![Icon](https://media.forgecdn.net/avatars/thumbnails/507/343/64/64/637827253594971481.png)
+![Icon](https://media.discordapp.net/attachments/776166607448965133/952347536474128434/Not_Enough_Variants_Icon64x64.png)
 
 # Not Enough Variations
 ![Open Issues](https://img.shields.io/github/issues/elephant1214/NotEnoughVariations)
+![Stars](https://img.shields.io/github/stars/elephant1214/NotEnoughVariations)
 
 A simple Minecraft mod for Forge that adds seemingly missing variations of vanilla blocks
 
