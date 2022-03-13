@@ -1,4 +1,4 @@
-![Icon](https://media.discordapp.net/attachments/776166607448965133/952346536145190952/Not_Enough_Variants_Icon.png)
+![Icon](https://media.forgecdn.net/avatars/thumbnails/507/343/64/64/637827253594971481.png)
 
 # Not Enough Variations
 ![Open Issues](https://img.shields.io/github/issues/elephant1214/NotEnoughVariations)
