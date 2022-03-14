@@ -32,4 +32,4 @@ tile.missingblocks.green_concrete_slab.name=Grüne Betonstufe
 tile.missingblocks.red_concrete_slab.name=Rote Betonstufe
 tile.missingblocks.black_concrete_slab.name=Schwarze Betonstufe
 
-itemGroup.missing_blocks=Fehlende Blöcke
+itemGroup.missing_blocks=Missing Blocks
