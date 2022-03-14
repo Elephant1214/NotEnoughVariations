@@ -1,0 +1,35 @@
+tile.missingblocks.white_concrete_stairs.name=Weiße Betontreppe 
+tile.missingblocks.orange_concrete_stairs.name=Orange Betontreppe
+tile.missingblocks.magenta_concrete_stairs.name=Magenta Betontreppe
+tile.missingblocks.light_blue_concrete_stairs.name=Hellblaue Betontreppe
+tile.missingblocks.yellow_concrete_stairs.name=Gelbe Betontreppe
+tile.missingblocks.lime_concrete_stairs.name=Hellgrüne Betontreppe
+tile.missingblocks.pink_concrete_stairs.name=Rosa Betontreppe
+tile.missingblocks.gray_concrete_stairs.name=Graue Betontreppe
+tile.missingblocks.light_gray_concrete_stairs.name=Hellgraue Betontreppe
+tile.missingblocks.cyan_concrete_stairs.name=Türkise Betontreppe
+tile.missingblocks.purple_concrete_stairs.name=Violette Betontreppe
+tile.missingblocks.blue_concrete_stairs.name=Blaue Betontreppe
+tile.missingblocks.brown_concrete_stairs.name=Braune Betontreppe
+tile.missingblocks.green_concrete_stairs.name=Grüne Betontreppe
+tile.missingblocks.red_concrete_stairs.name=Rote Betontreppe
+tile.missingblocks.black_concrete_stairs.name=Schwarze Betontreppe
+
+tile.missingblocks.white_concrete_slab.name=Weiße Betonstufe
+tile.missingblocks.orange_concrete_slab.name=Orange Betonstufe
+tile.missingblocks.magenta_concrete_slab.name=Magenta Betonstufe
+tile.missingblocks.light_blue_concrete_slab.name=Hellblaue Betonstufe
+tile.missingblocks.yellow_concrete_slab.name=Gelbe Betonstufe
+tile.missingblocks.lime_concrete_slab.name=Hellgrüne Betonstufe
+tile.missingblocks.pink_concrete_slab.name=Rosa Betonstufe
+tile.missingblocks.gray_concrete_slab.name=Graue Betonstufe
+tile.missingblocks.light_gray_concrete_slab.name=Hellgraue Betonstufe
+tile.missingblocks.cyan_concrete_slab.name=Türkise Betonstufe
+tile.missingblocks.purple_concrete_slab.name=Violette Betonstufe
+tile.missingblocks.blue_concrete_slab.name=Blaue Betonstufe
+tile.missingblocks.brown_concrete_slab.name=Braune Betonstufe
+tile.missingblocks.green_concrete_slab.name=Grüne Betonstufe
+tile.missingblocks.red_concrete_slab.name=Rote Betonstufe
+tile.missingblocks.black_concrete_slab.name=Schwarze Betonstufe
+
+itemGroup.missing_blocks=Fehlende Blöcke
