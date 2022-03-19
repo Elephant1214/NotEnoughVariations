@@ -13,10 +13,10 @@ Extract the project source into a new folder and import the `build.gradle` file 
 Creative Commons Attribution-NonCommercial 4.0 International Public License
 
 ## Translations
-German - Whomsky
-Russian - bottleofench
-Chinese - KMEHSilhouette
-
+German - Whomsky\
+Russian - bottleofench\
+Chinese - KMEHSilhouette\
+\
 Want to help with translations? Make a PR and add them to the matching lang file.
 
 ## Discord Server
