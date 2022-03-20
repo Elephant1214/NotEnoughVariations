@@ -10,8 +10,10 @@ import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemShears;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IStringSerializable;
 import net.minecraft.util.math.BlockPos;
@@ -44,6 +46,20 @@ public abstract class BlockBaseSlab extends BlockSlab {
 
         this.setDefaultState(blockState);
         BlockInit.blocks.add(this);
+    }
+
+    @Override
+    public float getPlayerRelativeBlockHardness(IBlockState state, EntityPlayer player, World worldIn, BlockPos pos) {
+        float relativeHardness = super.getPlayerRelativeBlockHardness(state, player, worldIn, pos);
+        if (this.shearable && player.getHeldItemMainhand().getItem() instanceof ItemShears) {
+            if (EnchantmentHelper.getEfficiencyModifier(player) != 0) {
+                return relativeHardness * 6 * EnchantmentHelper.getEfficiencyModifier(player);
+            } else {
+                return relativeHardness * 6;
+            }
+        } else {
+            return relativeHardness;
+        }
     }
 
     @Override

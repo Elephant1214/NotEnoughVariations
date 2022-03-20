@@ -26,7 +26,7 @@ public class NotEnoughVariants {
 
     public static final String MODID = "nev";
     public static final String NAME = "Not Enough Variations";
-    public static final String VERSION = "0.2.0";
+    public static final String VERSION = "0.2.1";
 
     public static final CreativeTabs NOT_ENOUGH_VARIANTS = new NevTab(MODID + ".not_enough_variations");
 
@@ -35,15 +35,8 @@ public class NotEnoughVariants {
             serverSide = "nathan.notenoughvariations.proxy.ServerProxy"
     )
     public static CommonProxy proxy;
-
-    //@Mod.Instance
-    //public static tile.MissingBlocks instance;
-    //
+	
     public static Logger logger = LogManager.getLogger(NotEnoughVariants.MODID);
-
-    //@Mod.EventHandler
-    //public static void preInit(FMLPreInitializationEvent event) {
-    //}
 
     @Mod.EventHandler
     public static void init(FMLInitializationEvent event) {
@@ -51,6 +44,13 @@ public class NotEnoughVariants {
             if (block.getDefaultState().getMaterial().equals(Blocks.WOOL.getDefaultState().getMaterial())) {
                 Blocks.FIRE.setFireInfo(block, 30, 60);
             }
+        }
+    }
+
+    @Mod.EventHandler
+    public static void postInit(FMLPostInitializationEvent event) {
+        if (Loader.isModLoaded("missingblocks")) {
+            logger.error("Found version 0.1.x of this mod, not removing it WILL cause issues.");
         }
     }
 
@@ -363,13 +363,6 @@ public class NotEnoughVariants {
                         throw new IllegalStateException("Unexpected value: " + item.getTarget().getUnlocalizedName());
                 }
             }
-        }
-    }
-
-    @Mod.EventHandler
-    public static void postInit(FMLPostInitializationEvent event) {
-        if (Loader.isModLoaded("Missing Blocks")) {
-            logger.error("Found version 0.1.0 of this mod, not removing it WILL cause issues.");
         }
     }
 

@@ -7,9 +7,13 @@ import net.minecraft.block.BlockStairs;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemShears;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
 
 import java.util.Objects;
 
@@ -30,6 +34,20 @@ public class BlockBaseStairs extends BlockStairs {
         this.useNeighborBrightness = true;
         BlockInit.blocks.add(this);
         ItemInit.items.add(new ItemBlock(this).setRegistryName(Objects.requireNonNull(this.getRegistryName())));
+    }
+
+    @Override
+    public float getPlayerRelativeBlockHardness(IBlockState state, EntityPlayer player, World worldIn, BlockPos pos) {
+        float relativeHardness = super.getPlayerRelativeBlockHardness(state, player, worldIn, pos);
+        if (this.shearable && player.getHeldItemMainhand().getItem() instanceof ItemShears) {
+            if (EnchantmentHelper.getEfficiencyModifier(player) != 0) {
+                return relativeHardness * 6 * EnchantmentHelper.getEfficiencyModifier(player);
+            } else {
+                return relativeHardness * 6;
+            }
+        } else {
+            return relativeHardness;
+        }
     }
 
     @Override
