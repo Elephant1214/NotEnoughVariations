@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "W  ",
+        "WW ",
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:wool",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:white_wool_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

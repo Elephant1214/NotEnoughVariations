@@ -1,11 +1,11 @@
 [
 {
-  "modid": "missingblocks",
-  "name": "Missing Blocks",
-  "description": "A simple mod that adds blocks that are seemingly missing from the game.",
-  "version": "0.1.0",
+  "modid": "nev",
+  "name": "Not Enough Variations",
+  "description": "A simple mod that adds variations of blocks that are seemingly missing from the game.",
+  "version": "0.2.0",
   "mcversion": "1.12.2-14.23.5.2860",
-  "url": "",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/not-enough-variations",
   "updateUrl": "",
   "authorList": ["Elephant_1214"],
   "credits": "",

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:concrete",
+            "data": 10
+        }
+    },
+    "result": {
+        "item": "nev:purple_concrete_slab",
+        "count": 6,
+        "data": 0
+    }
+}

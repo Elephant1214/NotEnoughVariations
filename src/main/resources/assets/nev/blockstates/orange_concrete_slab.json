@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/orange/half_slab_orange_concrete"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/orange/upper_slab_orange_concrete"
+        }
+    }
+}

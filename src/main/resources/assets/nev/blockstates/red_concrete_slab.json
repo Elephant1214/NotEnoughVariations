@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/red/half_slab_red_concrete"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/red/upper_slab_red_concrete"
+        }
+    }
+}
