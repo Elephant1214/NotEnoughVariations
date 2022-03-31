@@ -3,6 +3,7 @@
 # Not Enough Variations
 ![Open Issues](https://img.shields.io/github/issues/elephant1214/NotEnoughVariations)
 ![Stars](https://img.shields.io/github/stars/elephant1214/NotEnoughVariations)
+![Discord](https://img.shields.io/discord/959153592869224579?color=blue&label=Discord&style=for-the-badge)
 
 A simple Minecraft mod for Forge that adds seemingly missing variations of vanilla blocks
 
