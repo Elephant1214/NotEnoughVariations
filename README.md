@@ -19,6 +19,3 @@ Russian - bottleofench\
 Chinese - KMEHSilhouette\
 \
 Want to help with translations? Make a PR and add them to the matching lang file.
-
-## Discord Server
-Coming soon:tm:
