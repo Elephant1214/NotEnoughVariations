@@ -1,6 +1,6 @@
 package nathan.notenoughvariations.util.handlers;
 
-import nathan.notenoughvariations.NotEnoughVariants;
+import nathan.notenoughvariations.NotEnoughVariations;
 import nathan.notenoughvariations.init.BlockInit;
 import nathan.notenoughvariations.init.ItemInit;
 import net.minecraft.block.Block;
@@ -26,11 +26,11 @@ public class RegistryHandler {
     @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event) {
         for (Item item : ItemInit.items) {
-            NotEnoughVariants.proxy.registerItemRenderer(item, 0, "inventory");
+            NotEnoughVariations.proxy.registerItemRenderer(item, 0, "inventory");
         }
 
         for (Block block : BlockInit.blocks) {
-            NotEnoughVariants.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
+            NotEnoughVariations.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
         }
     }
 }

@@ -1,6 +1,6 @@
 package nathan.notenoughvariations.blocks.slab;
 
-import nathan.notenoughvariations.NotEnoughVariants;
+import nathan.notenoughvariations.NotEnoughVariations;
 import nathan.notenoughvariations.init.BlockInit;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.SoundType;
@@ -30,7 +30,7 @@ public abstract class BlockBaseSlab extends BlockSlab {
 
     public BlockBaseSlab(String name, Material material, MapColor mapColor, float hardness, float resistance, SoundType sound, String toolClass, int level, boolean shearable) {
         super(material, mapColor);
-        setUnlocalizedName(NotEnoughVariants.MODID + "." + name);
+        setUnlocalizedName(NotEnoughVariations.MODID + "." + name);
         setRegistryName(name);
         setHardness(hardness);
         setResistance(resistance);

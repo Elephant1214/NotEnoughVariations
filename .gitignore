@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+build/
+gradle/
+out/
+run/
+gradle.properties
+gradlew
+gradlew.bat
+README.txt
+out/
+build/

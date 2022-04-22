@@ -1,6 +1,6 @@
 package nathan.notenoughvariations.blocks;
 
-import nathan.notenoughvariations.NotEnoughVariants;
+import nathan.notenoughvariations.NotEnoughVariations;
 import nathan.notenoughvariations.init.BlockInit;
 import nathan.notenoughvariations.init.ItemInit;
 import net.minecraft.block.BlockStairs;
@@ -23,7 +23,7 @@ public class BlockBaseStairs extends BlockStairs {
 
     public BlockBaseStairs(String name, IBlockState state, CreativeTabs creativeTab, float hardness, float resistance, String toolClass, int level, boolean shearable) {
         super(state);
-        setUnlocalizedName(NotEnoughVariants.MODID + "." + name);
+        setUnlocalizedName(NotEnoughVariations.MODID + "." + name);
         setRegistryName(name);
         setCreativeTab(creativeTab);
         setHardness(hardness);

@@ -1,6 +1,6 @@
 package nathan.notenoughvariations.blocks;
 
-import nathan.notenoughvariations.NotEnoughVariants;
+import nathan.notenoughvariations.NotEnoughVariations;
 import nathan.notenoughvariations.init.BlockInit;
 import nathan.notenoughvariations.init.ItemInit;
 import net.minecraft.block.Block;
@@ -15,7 +15,7 @@ public class BlockBase extends Block {
 
     public BlockBase(String name, Material material, CreativeTabs creativeTab, float hardness, float resistance, SoundType sound, String toolClass, int level) {
         super(material);
-        setUnlocalizedName(NotEnoughVariants.MODID + "." + name);
+        setUnlocalizedName(NotEnoughVariations.MODID + "." + name);
         setRegistryName(name);
         setCreativeTab(creativeTab);
         setHardness(hardness);

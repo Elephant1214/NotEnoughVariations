@@ -18,11 +18,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod(
-        modid = NotEnoughVariants.MODID,
-        name = NotEnoughVariants.NAME,
-        version = NotEnoughVariants.VERSION
+        modid = NotEnoughVariations.MODID,
+        name = NotEnoughVariations.NAME,
+        version = NotEnoughVariations.VERSION
 )
-public class NotEnoughVariants {
+public class NotEnoughVariations {
 
     public static final String MODID = "nev";
     public static final String NAME = "Not Enough Variations";
@@ -35,8 +35,15 @@ public class NotEnoughVariants {
             serverSide = "nathan.notenoughvariations.proxy.ServerProxy"
     )
     public static CommonProxy proxy;
-	
-    public static Logger logger = LogManager.getLogger(NotEnoughVariants.MODID);
+
+    //@Mod.Instance
+    //public static tile.MissingBlocks instance;
+    //
+    public static Logger logger = LogManager.getLogger(NotEnoughVariations.MODID);
+
+    //@Mod.EventHandler
+    //public static void preInit(FMLPreInitializationEvent event) {
+    //}
 
     @Mod.EventHandler
     public static void init(FMLInitializationEvent event) {
@@ -50,7 +57,7 @@ public class NotEnoughVariants {
     @Mod.EventHandler
     public static void postInit(FMLPostInitializationEvent event) {
         if (Loader.isModLoaded("missingblocks")) {
-            logger.error("Found version 0.1.x of this mod, not removing it WILL cause issues.");
+            logger.error("Found version 0.1.x of this mod, not removing it will likely cause issues.");
         }
     }
 
