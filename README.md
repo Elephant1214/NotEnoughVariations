@@ -5,8 +5,8 @@
 # Not Enough Variations
 A simple Minecraft mod for Forge that adds seemingly missing variations of vanilla blocks
 
-## Building from Source
-Extract the project source into a new folder and import the `build.gradle` file as a project. Wait for it to finish setup, then run the build task.
+## Building from Source and Contributing
+Make an empty folder with the Forge 14.23.5.2860 MDK and extract the project source into the same folder, overriding any duplicate files. Follow the instructions provided by Forge for setting up the environment for your IDE. Make a pull request and make any modifications, or run the `build` task to build the mod.
 
 ## License
 Creative Commons Attribution-NonCommercial 4.0 International Public License
