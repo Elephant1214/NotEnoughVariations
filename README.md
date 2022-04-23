@@ -1,4 +1,4 @@
-![Discord](https://discordapp.com/api/guilds/959153592869224579/widget.png?style=banner2)\
+[![Discord](https://discordapp.com/api/guilds/959153592869224579/widget.png?style=banner2)](https://discord.gg/qpc69BUeDe)\
 \
 ![Open Issues](https://img.shields.io/github/issues/Elephant1214/NotEnoughVariations?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/Elephant1214/NotEnoughVariations?style=for-the-badge)
