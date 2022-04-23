@@ -1,6 +1,7 @@
+![Discord](https://discordapp.com/api/guilds/959153592869224579/widget.png?style=banner2)\
+\
 ![Open Issues](https://img.shields.io/github/issues/Elephant1214/NotEnoughVariations?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/Elephant1214/NotEnoughVariations?style=for-the-badge)
-![Discord](https://img.shields.io/discord/959153592869224579?color=blue&label=Discord&style=for-the-badge)
 
 # Not Enough Variations
 A simple Minecraft mod for Forge that adds seemingly missing variations of vanilla blocks
