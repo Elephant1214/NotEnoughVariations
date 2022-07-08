@@ -17,4 +17,4 @@ German - Whomsky\
 Russian - bottleofench\
 Chinese - KMEHSilhouette\
 \
-Want to help with translations? Make a PR and add them to the matching lang file.
+Want to help with translations? Make a PR and add them to the matching lang file [here](https://github.com/Elephant1214/NotEnoughVariations/tree/main/src/main/resources/assets/nev/lang).
