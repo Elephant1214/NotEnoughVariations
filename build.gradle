@@ -78,7 +78,7 @@ jar {
     manifest {
         attributes(["Specification-Title"     : "${modid}",
                     "Specification-Vendor"    : "nathan",
-                    "Specification-Version"   : "0.2.1", // We are version 1 of ourselves
+                    "Specification-Version"   : "0.3.0", // We are version 1 of ourselves
                     "Implementation-Title"    : project.name,
                     "Implementation-Version"  : "${project.version}",
                     "Implementation-Vendor"   : "nathan",
