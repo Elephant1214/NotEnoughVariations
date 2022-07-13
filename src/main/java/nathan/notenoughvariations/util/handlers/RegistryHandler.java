@@ -12,24 +12,23 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber
 public class RegistryHandler {
-
     @SubscribeEvent
     public static void onItemRegister(RegistryEvent.Register<Item> event) {
-        event.getRegistry().registerAll(ItemInit.items.toArray(new Item[0]));
+        event.getRegistry().registerAll(ItemInit.ITEMS.toArray(new Item[0]));
     }
 
     @SubscribeEvent
     public static void onBlockRegister(RegistryEvent.Register<Block> event) {
-        event.getRegistry().registerAll(BlockInit.blocks.toArray(new Block[0]));
+        event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block[0]));
     }
 
     @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event) {
-        for (Item item : ItemInit.items) {
+        for (Item item : ItemInit.ITEMS) {
             NotEnoughVariations.proxy.registerItemRenderer(item, 0, "inventory");
         }
 
-        for (Block block : BlockInit.blocks) {
+        for (Block block : BlockInit.BLOCKS) {
             NotEnoughVariations.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
         }
     }

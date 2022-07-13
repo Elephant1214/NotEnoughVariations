@@ -12,7 +12,6 @@ import net.minecraft.item.ItemBlock;
 import java.util.Objects;
 
 public class BlockBase extends Block {
-
     public BlockBase(String name, Material material, CreativeTabs creativeTab, float hardness, float resistance, SoundType sound, String toolClass, int level) {
         super(material);
         setUnlocalizedName(NotEnoughVariations.MODID + "." + name);
@@ -23,7 +22,7 @@ public class BlockBase extends Block {
         setSoundType(sound);
         setHarvestLevel(toolClass, level);
 
-        BlockInit.blocks.add(this);
-        ItemInit.items.add(new ItemBlock(this).setRegistryName(Objects.requireNonNull(this.getRegistryName())));
+        BlockInit.BLOCKS.add(this);
+        ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(Objects.requireNonNull(this.getRegistryName())));
     }
 }

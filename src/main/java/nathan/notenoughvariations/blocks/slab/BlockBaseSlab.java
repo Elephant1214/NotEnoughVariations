@@ -24,7 +24,6 @@ import net.minecraft.world.World;
 import java.util.Random;
 
 public abstract class BlockBaseSlab extends BlockSlab {
-
     public static final PropertyEnum<Variant> VARIANT = PropertyEnum.create("variant", Variant.class);
     public final boolean shearable;
 
@@ -45,7 +44,7 @@ public abstract class BlockBaseSlab extends BlockSlab {
         }
 
         this.setDefaultState(blockState);
-        BlockInit.blocks.add(this);
+        BlockInit.BLOCKS.add(this);
     }
 
     @Override
@@ -64,83 +63,7 @@ public abstract class BlockBaseSlab extends BlockSlab {
 
     @Override
     public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-        String unlocalizedName = state.getBlock().getUnlocalizedName().toLowerCase();
-
-        if (unlocalizedName.contains("concrete")) {
-            if (unlocalizedName.contains("white")) {
-                return Item.getItemFromBlock(BlockInit.white_concrete_slab);
-            } else if (unlocalizedName.contains("orange")) {
-                return Item.getItemFromBlock(BlockInit.orange_concrete_slab);
-            } else if (unlocalizedName.contains("magenta")) {
-                return Item.getItemFromBlock(BlockInit.magenta_concrete_slab);
-            } else if (unlocalizedName.contains("light_blue")) {
-                return Item.getItemFromBlock(BlockInit.light_blue_concrete_slab);
-            } else if (unlocalizedName.contains("yellow")) {
-                return Item.getItemFromBlock(BlockInit.yellow_concrete_slab);
-            } else if (unlocalizedName.contains("lime")) {
-                return Item.getItemFromBlock(BlockInit.lime_concrete_slab);
-            } else if (unlocalizedName.contains("pink")) {
-                return Item.getItemFromBlock(BlockInit.pink_concrete_slab);
-            } else if (unlocalizedName.contains("gray")) {
-                return Item.getItemFromBlock(BlockInit.gray_concrete_slab);
-            } else if (unlocalizedName.contains("light_gray")) {
-                return Item.getItemFromBlock(BlockInit.light_gray_concrete_slab);
-            } else if (unlocalizedName.contains("cyan")) {
-                return Item.getItemFromBlock(BlockInit.cyan_concrete_slab);
-            } else if (unlocalizedName.contains("purple")) {
-                return Item.getItemFromBlock(BlockInit.purple_concrete_slab);
-            } else if (unlocalizedName.contains("blue")) {
-                return Item.getItemFromBlock(BlockInit.blue_concrete_slab);
-            } else if (unlocalizedName.contains("brown")) {
-                return Item.getItemFromBlock(BlockInit.brown_concrete_slab);
-            } else if (unlocalizedName.contains("green")) {
-                return Item.getItemFromBlock(BlockInit.green_concrete_slab);
-            } else if (unlocalizedName.contains("red")) {
-                return Item.getItemFromBlock(BlockInit.red_concrete_slab);
-            } else if (unlocalizedName.contains("black")) {
-                return Item.getItemFromBlock(BlockInit.black_concrete_slab);
-            } else {
-                throw new IllegalStateException("Unexpected value: " + state.getBlock());
-            }
-        } else if (unlocalizedName.contains("wool")) {
-            if (unlocalizedName.contains("white")) {
-                return Item.getItemFromBlock(BlockInit.white_wool_slab);
-            } else if (unlocalizedName.contains("orange")) {
-                return Item.getItemFromBlock(BlockInit.orange_wool_slab);
-            } else if (unlocalizedName.contains("magenta")) {
-                return Item.getItemFromBlock(BlockInit.magenta_wool_slab);
-            } else if (unlocalizedName.contains("light_blue")) {
-                return Item.getItemFromBlock(BlockInit.light_blue_wool_slab);
-            } else if (unlocalizedName.contains("yellow")) {
-                return Item.getItemFromBlock(BlockInit.yellow_wool_slab);
-            } else if (unlocalizedName.contains("lime")) {
-                return Item.getItemFromBlock(BlockInit.lime_wool_slab);
-            } else if (unlocalizedName.contains("pink")) {
-                return Item.getItemFromBlock(BlockInit.pink_wool_slab);
-            } else if (unlocalizedName.contains("gray")) {
-                return Item.getItemFromBlock(BlockInit.gray_wool_slab);
-            } else if (unlocalizedName.contains("light_gray")) {
-                return Item.getItemFromBlock(BlockInit.light_gray_wool_slab);
-            } else if (unlocalizedName.contains("cyan")) {
-                return Item.getItemFromBlock(BlockInit.cyan_wool_slab);
-            } else if (unlocalizedName.contains("purple")) {
-                return Item.getItemFromBlock(BlockInit.purple_wool_slab);
-            } else if (unlocalizedName.contains("blue")) {
-                return Item.getItemFromBlock(BlockInit.blue_wool_slab);
-            } else if (unlocalizedName.contains("brown")) {
-                return Item.getItemFromBlock(BlockInit.brown_wool_slab);
-            } else if (unlocalizedName.contains("green")) {
-                return Item.getItemFromBlock(BlockInit.green_wool_slab);
-            } else if (unlocalizedName.contains("red")) {
-                return Item.getItemFromBlock(BlockInit.red_wool_slab);
-            } else if (unlocalizedName.contains("black")) {
-                return Item.getItemFromBlock(BlockInit.black_wool_slab);
-            } else {
-                throw new IllegalStateException("Unexpected value: " + state.getBlock());
-            }
-        } else {
-            throw new IllegalStateException("Unexpected value: " + state.getBlock());
-        }
+        return Item.getItemFromBlock(this);
     }
 
     @Override

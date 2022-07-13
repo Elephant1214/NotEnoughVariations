@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A  ",
+        "AA ",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:stone",
+            "data": 5
+        }
+    },
+    "result": {
+        "item": "nev:andesite_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

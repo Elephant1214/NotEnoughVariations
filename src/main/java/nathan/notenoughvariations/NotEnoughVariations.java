@@ -1,21 +1,30 @@
 package nathan.notenoughvariations;
 
+import com.google.common.collect.Lists;
 import nathan.notenoughvariations.init.BlockInit;
 import nathan.notenoughvariations.proxy.CommonProxy;
+import nathan.notenoughvariations.recipes.StoneBrickStairsRecipe;
 import nathan.notenoughvariations.tabs.NevTab;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import net.minecraftforge.registries.ForgeRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.Objects;
 
 @Mod(
         modid = NotEnoughVariations.MODID,
@@ -26,7 +35,7 @@ public class NotEnoughVariations {
 
     public static final String MODID = "nev";
     public static final String NAME = "Not Enough Variations";
-    public static final String VERSION = "0.2.1";
+    public static final String VERSION = "0.3.0";
 
     public static final CreativeTabs NOT_ENOUGH_VARIANTS = new NevTab(MODID + ".not_enough_variations");
 
@@ -41,13 +50,14 @@ public class NotEnoughVariations {
     //
     public static Logger logger = LogManager.getLogger(NotEnoughVariations.MODID);
 
-    //@Mod.EventHandler
-    //public static void preInit(FMLPreInitializationEvent event) {
-    //}
+    @Mod.EventHandler
+    public static void preInit(FMLPreInitializationEvent event) {
+        removeVanillaRecipes();
+    }
 
     @Mod.EventHandler
     public static void init(FMLInitializationEvent event) {
-        for (Block block : BlockInit.blocks) {
+        for (Block block : BlockInit.BLOCKS) {
             if (block.getDefaultState().getMaterial().equals(Blocks.WOOL.getDefaultState().getMaterial())) {
                 Blocks.FIRE.setFireInfo(block, 30, 60);
             }
@@ -57,7 +67,24 @@ public class NotEnoughVariations {
     @Mod.EventHandler
     public static void postInit(FMLPostInitializationEvent event) {
         if (Loader.isModLoaded("missingblocks")) {
-            logger.error("Found version 0.1.x of this mod, not removing it will likely cause issues.");
+            logger.warn("Found version 0.1.x of this mod, not removing it might cause issues.");
+        }
+    }
+
+    public static void removeVanillaRecipes() {
+        ForgeRegistry<IRecipe> recipeRegistry = (ForgeRegistry<IRecipe>) ForgeRegistries.RECIPES;
+        ArrayList<IRecipe> recipes = Lists.newArrayList(recipeRegistry.getValuesCollection());
+
+        for (IRecipe recipe : recipes) {
+            if (Objects.requireNonNull(recipe.getRegistryName()).toString().equals("minecraft:stone_brick_stairs")) {
+                logger.info("Replacing the vanilla stone brick stairs recipe with the recipe from this mod...");
+                recipeRegistry.remove(recipe.getRegistryName());
+                recipeRegistry.register(StoneBrickStairsRecipe.from(recipe));
+            } else if (Objects.requireNonNull(recipe.getRegistryName()).toString().equals("minecraft:stone_brick_slab")) {
+                logger.info("Replacing the vanilla stone bricks slab recipe with the recipe from this mod...");
+                recipeRegistry.remove(recipe.getRegistryName());
+                recipeRegistry.register(StoneBrickStairsRecipe.from(recipe));
+            }
         }
     }
 

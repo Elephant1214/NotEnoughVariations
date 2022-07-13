@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:stone",
+            "data": 1
+        }
+    },
+    "result": {
+        "item": "nev:granite_slab",
+        "count": 6,
+        "data": 0
+    }
+}

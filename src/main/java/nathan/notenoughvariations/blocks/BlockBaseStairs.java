@@ -18,7 +18,6 @@ import net.minecraft.world.World;
 import java.util.Objects;
 
 public class BlockBaseStairs extends BlockStairs {
-
     public final boolean shearable;
 
     public BlockBaseStairs(String name, IBlockState state, CreativeTabs creativeTab, float hardness, float resistance, String toolClass, int level, boolean shearable) {
@@ -32,8 +31,8 @@ public class BlockBaseStairs extends BlockStairs {
 
         this.shearable = shearable;
         this.useNeighborBrightness = true;
-        BlockInit.blocks.add(this);
-        ItemInit.items.add(new ItemBlock(this).setRegistryName(Objects.requireNonNull(this.getRegistryName())));
+        BlockInit.BLOCKS.add(this);
+        ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(Objects.requireNonNull(this.getRegistryName())));
     }
 
     @Override
@@ -52,38 +51,48 @@ public class BlockBaseStairs extends BlockStairs {
 
     @Override
     public MapColor getMapColor(IBlockState state, IBlockAccess worldIn, BlockPos pos) {
-        if (state.getBlock().getUnlocalizedName().toLowerCase().contains("white")) {
+        String unlocalizedName = state.getBlock().getUnlocalizedName().toLowerCase();
+
+        if (unlocalizedName.contains("white")) {
             return MapColor.SNOW;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("orange")) {
+        } else if (unlocalizedName.contains("orange")) {
             return MapColor.ADOBE;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("magenta")) {
+        } else if (unlocalizedName.contains("magenta")) {
             return MapColor.MAGENTA;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("light_blue")) {
+        } else if (unlocalizedName.contains("light_blue")) {
             return MapColor.LIGHT_BLUE;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("yellow")) {
+        } else if (unlocalizedName.contains("yellow")) {
             return MapColor.YELLOW;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().toLowerCase().contains("lime")) {
+        } else if (unlocalizedName.contains("lime")) {
             return MapColor.LIME;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("pink")) {
+        } else if (unlocalizedName.contains("pink")) {
             return MapColor.PINK;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("gray")) {
+        } else if (unlocalizedName.contains("gray")) {
             return MapColor.GRAY;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("light_gray")) {
+        } else if (unlocalizedName.contains("light_gray")) {
             return MapColor.SILVER;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("cyan")) {
+        } else if (unlocalizedName.contains("cyan")) {
             return MapColor.CYAN;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("purple")) {
+        } else if (unlocalizedName.contains("purple")) {
             return MapColor.PURPLE;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("blue")) {
+        } else if (unlocalizedName.contains("blue")) {
             return MapColor.BLUE;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("brown")) {
+        } else if (unlocalizedName.contains("brown")) {
             return MapColor.BROWN;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("green")) {
+        } else if (unlocalizedName.contains("green")) {
             return MapColor.GREEN;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("red")) {
+        } else if (unlocalizedName.contains("red")) {
             return MapColor.RED;
-        } else if (state.getBlock().getUnlocalizedName().toLowerCase().contains("black")) {
+        } else if (unlocalizedName.contains("black")) {
             return MapColor.BLACK;
+        } else if (unlocalizedName.contains("end")) {
+            return MapColor.SAND;
+        } else if (unlocalizedName.contains("andesite") || unlocalizedName.contains("diorite") || unlocalizedName.contains("granite") || unlocalizedName.contains("mossy_cobblestone")) {
+            return MapColor.STONE;
+        } else if (unlocalizedName.contains("red_nether")) {
+            return MapColor.NETHERRACK;
+        } else if (unlocalizedName.contains("prismarine")) {
+            return MapColor.DIAMOND;
         } else {
             throw new IllegalStateException("Unexpected value: " + state.getBlock());
         }

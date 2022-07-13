@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "P  ",
+        "PP ",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:stone",
+            "data": 4
+        }
+    },
+    "result": {
+        "item": "nev:polished_diorite_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

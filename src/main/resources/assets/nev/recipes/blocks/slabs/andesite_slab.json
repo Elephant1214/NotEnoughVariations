@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:stone",
+            "data": 5
+        }
+    },
+    "result": {
+        "item": "nev:andesite_slab",
+        "count": 6,
+        "data": 0
+    }
+}

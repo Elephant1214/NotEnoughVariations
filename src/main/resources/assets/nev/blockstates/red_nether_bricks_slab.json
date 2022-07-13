@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/nether/half_slab_red_nether_bricks"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/nether/upper_slab_red_nether_bricks"
+        }
+    }
+}

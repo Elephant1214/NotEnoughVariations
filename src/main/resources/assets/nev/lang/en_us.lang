@@ -1,3 +1,4 @@
+# Concrete stair variations
 tile.nev.white_concrete_stairs.name=White Concrete Stairs
 tile.nev.orange_concrete_stairs.name=Orange Concrete Stairs
 tile.nev.magenta_concrete_stairs.name=Magenta Concrete Stairs
@@ -15,6 +16,7 @@ tile.nev.green_concrete_stairs.name=Green Concrete Stairs
 tile.nev.red_concrete_stairs.name=Red Concrete Stairs
 tile.nev.black_concrete_stairs.name=Black Concrete Stairs
 
+# Concrete slab variations
 tile.nev.white_concrete_slab.name=White Concrete Slab
 tile.nev.orange_concrete_slab.name=Orange Concrete Slab
 tile.nev.magenta_concrete_slab.name=Magenta Concrete Slab
@@ -32,6 +34,7 @@ tile.nev.green_concrete_slab.name=Green Concrete Slab
 tile.nev.red_concrete_slab.name=Red Concrete Slab
 tile.nev.black_concrete_slab.name=Black Concrete Slab
 
+# Wool stair variations
 tile.nev.white_wool_stairs.name=White Wool Stairs
 tile.nev.orange_wool_stairs.name=Orange Wool Stairs
 tile.nev.magenta_wool_stairs.name=Magenta Wool Stairs
@@ -49,6 +52,7 @@ tile.nev.green_wool_stairs.name=Green Wool Stairs
 tile.nev.red_wool_stairs.name=Red Wool Stairs
 tile.nev.black_wool_stairs.name=Black Wool Stairs
 
+# Wool slab variations
 tile.nev.white_wool_slab.name=White Wool Slab
 tile.nev.orange_wool_slab.name=Orange Wool Slab
 tile.nev.magenta_wool_slab.name=Magenta Wool Slab
@@ -66,4 +70,43 @@ tile.nev.green_wool_slab.name=Green Wool Slab
 tile.nev.red_wool_slab.name=Red Wool Slab
 tile.nev.black_wool_slab.name=Black Wool Slab
 
+## Stone variations
+# Andesite variations
+tile.nev.andesite_slab.name=Andesite Slab
+tile.nev.andesite_stairs.name=Andesite Stairs
+tile.nev.polished_andesite_slab.name=Polished Andesite Slab
+tile.nev.polished_andesite_stairs.name=Polished Andesite Stairs
+# Diorite variations
+tile.nev.diorite_slab.name=Diorite Slab
+tile.nev.diorite_stairs.name=Diorite Stairs
+tile.nev.polished_diorite_slab.name=Polished Diorite Slab
+tile.nev.polished_diorite_stairs.name=Polished Diorite Stairs
+# Granite variations
+tile.nev.granite_slab.name=Granite Slab
+tile.nev.granite_stairs.name=Granite Stairs
+tile.nev.polished_granite_slab.name=Polished Granite Slab
+tile.nev.polished_granite_stairs.name=Polished Granite Stairs
+# Mossy stone variations
+tile.nev.mossy_cobblestone_slab.name=Mossy Cobblestone Slab
+tile.nev.mossy_cobblestone_stairs.name=Mossy Cobblestone Stairs
+tile.nev.mossy_stone_bricks_slab.name=Mossy Stone Bricks Slab
+tile.nev.mossy_stone_brick_stairs.name=Mossy Stone Brick Stairs
+
+# Prismarine variations
+tile.nev.prismarine_slab.name=Prismarine Slab
+tile.nev.prismarine_stairs.name=Prismarine Stairs
+tile.nev.prismarine_bricks_slab.name=Prismarine Bricks Slab
+tile.nev.prismarine_brick_stairs.name=Prismarine Brick Stairs
+tile.nev.dark_prismarine_slab.name=Dark Prismarine Slab
+tile.nev.dark_prismarine_stairs.name=Dark Prismarine Stairs
+
+# Nether variations
+tile.nev.red_nether_bricks_slab.name=Red Nether Bricks Slab
+tile.nev.red_nether_brick_stairs.name=Red Nether Brick Stairs
+
+# End variations
+tile.nev.end_stone_bricks_slab.name=End Stone Bricks Slab
+tile.nev.end_stone_brick_stairs.name=End Stone Brick Stairs
+
+# Creative inventory tab
 itemGroup.nev.not_enough_variations=Not Enough Variations

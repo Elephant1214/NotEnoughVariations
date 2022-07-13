@@ -1,12 +1,10 @@
 .gradle/
 .idea/
 build/
-gradle/
 out/
 run/
+runServer/
+gradle-wrapper.jar
 gradle.properties
 gradlew
 gradlew.bat
-README.txt
-out/
-build/

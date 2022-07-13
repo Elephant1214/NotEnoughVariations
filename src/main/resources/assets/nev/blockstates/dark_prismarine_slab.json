@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/prismarine/half_slab_dark_prismarine"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/prismarine/upper_slab_dark_prismarine"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "D  ",
+        "DD ",
+        "DDD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:stone",
+            "data": 3
+        }
+    },
+    "result": {
+        "item": "nev:diorite_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

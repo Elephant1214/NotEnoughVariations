@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "P  ",
+        "PP ",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:stone",
+            "data": 6
+        }
+    },
+    "result": {
+        "item": "nev:polished_andesite_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

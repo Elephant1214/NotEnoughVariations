@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/stone_polished/half_slab_polished_andesite"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/stone_polished/upper_slab_polished_andesite"
+        }
+    }
+}

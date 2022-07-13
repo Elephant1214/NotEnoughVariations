@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MMM"
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:stonebrick",
+            "data": 1
+        }
+    },
+    "result": {
+        "item": "nev:mossy_stone_bricks_slab",
+        "count": 6,
+        "data": 0
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "EEE"
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:end_bricks",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:end_stone_bricks_slab",
+        "count": 6,
+        "data": 0
+    }
+}
