@@ -13,8 +13,8 @@ Clone the repository/your fork into a folder and drag the Forge 14.23.5.2860 MDK
 Creative Commons Attribution-NonCommercial 4.0 International Public License
 
 ## Translations
-German - Whomsky\
-Russian - bottleofench\
-Chinese - KMEHSilhouette\
+Chinese - [KMEHSilhouette](https://github.com/KMEHSilhouette) and Leafy\
+German - [Whomsky](https://github.com/Whomsky)\
+Russian - [bottleofench](https://github.com/bottleofench)\
 \
 Want to help with translations? Make a PR and add them to the matching lang file [here](https://github.com/Elephant1214/NotEnoughVariations/tree/main/src/main/resources/assets/nev/lang).
