@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "variant=default": {
+            "model": "silver_concrete"
+        }
+    }
+}

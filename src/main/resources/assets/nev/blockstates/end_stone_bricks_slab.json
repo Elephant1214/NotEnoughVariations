@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/end/half_slab_end_stone_bricks"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/end/upper_slab_end_stone_bricks"
+        }
+    }
+}

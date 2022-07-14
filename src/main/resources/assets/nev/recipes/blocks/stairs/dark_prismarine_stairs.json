@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "D  ",
+        "DD ",
+        "DDD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:prismarine",
+            "data": 2
+        }
+    },
+    "result": {
+        "item": "nev:dark_prismarine_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

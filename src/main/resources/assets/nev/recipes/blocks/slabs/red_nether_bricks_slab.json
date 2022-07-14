@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RRR"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:red_nether_brick",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:red_nether_bricks_slab",
+        "count": 6,
+        "data": 0
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/blue/half_slab_blue_wool"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/blue/upper_slab_blue_wool"
+        }
+    }
+}

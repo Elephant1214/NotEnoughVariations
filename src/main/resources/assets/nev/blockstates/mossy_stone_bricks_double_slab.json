@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "variant=default": {
+            "model": "stonebrick_mossy"
+        }
+    }
+}

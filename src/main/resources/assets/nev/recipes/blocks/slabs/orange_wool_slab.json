@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:wool",
+            "data": 1
+        }
+    },
+    "result": {
+        "item": "nev:orange_wool_slab",
+        "count": 6,
+        "data": 0
+    }
+}

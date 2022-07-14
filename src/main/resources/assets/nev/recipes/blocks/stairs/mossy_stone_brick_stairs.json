@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "M  ",
+        "MM ",
+        "MMM"
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:stonebrick",
+            "data": 1
+        }
+    },
+    "result": {
+        "item": "nev:mossy_stone_brick_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

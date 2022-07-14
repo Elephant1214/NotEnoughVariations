@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:stone",
+            "data": 4
+        }
+    },
+    "result": {
+        "item": "nev:polished_diorite_slab",
+        "count": 6,
+        "data": 0
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/stone/half_slab_mossy_cobblestone"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/stone/upper_slab_mossy_cobblestone"
+        }
+    }
+}

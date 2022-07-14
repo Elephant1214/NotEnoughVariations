@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "M  ",
+        "MM ",
+        "MMM"
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:mossy_cobblestone",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:mossy_cobblestone_stairs",
+        "count": 4,
+        "data": 0
+    }
+}
