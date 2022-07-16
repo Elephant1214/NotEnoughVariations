@@ -11,7 +11,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath "net.minecraftforge.gradle:ForgeGradle:3.+"
+        classpath "net.minecraftforge.gradle:ForgeGradle:4.+"
         classpath group: "wtf.gofancy.fancygradle", name: "wtf.gofancy.fancygradle.gradle.plugin", version: "1.0.+"
     }
 }
@@ -21,7 +21,7 @@ apply plugin: "net.minecraftforge.gradle"
 apply plugin: "wtf.gofancy.fancygradle"
 
 String modid = "notenoughvariations"
-version = "1.12.2-0.3.0"
+version = "1.12.2-0.3.1"
 group = "nathan.${modid}" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "NotEnoughVariations"
 

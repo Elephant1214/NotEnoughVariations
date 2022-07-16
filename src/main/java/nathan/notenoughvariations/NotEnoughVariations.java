@@ -35,7 +35,7 @@ public class NotEnoughVariations {
 
     public static final String MODID = "nev";
     public static final String NAME = "Not Enough Variations";
-    public static final String VERSION = "0.3.0";
+    public static final String VERSION = "0.3.1";
 
     public static final CreativeTabs NOT_ENOUGH_VARIANTS = new NevTab(MODID + ".not_enough_variations");
 
