@@ -1,0 +1,112 @@
+# Concrete stair variations
+tile.nev.white_concrete_stairs.name=Vit Betongtrappa
+tile.nev.orange_concrete_stairs.name=Orange Betongtrappa
+tile.nev.magenta_concrete_stairs.name=Ljuslila Betongtrappa
+tile.nev.light_blue_concrete_stairs.name=Ljusblå Betongtrappa
+tile.nev.yellow_concrete_stairs.name=Gul Betongtrappa
+tile.nev.lime_concrete_stairs.name=Limegrön Betongtrappa
+tile.nev.pink_concrete_stairs.name=Rosa Betongtrappa
+tile.nev.gray_concrete_stairs.name=Grå Betongtrappa
+tile.nev.light_gray_concrete_stairs.name=Ljusgrå Betongtrappa
+tile.nev.cyan_concrete_stairs.name=Turkos Betongtrappa
+tile.nev.purple_concrete_stairs.name=Lila Betongtrappa
+tile.nev.blue_concrete_stairs.name=Blå Betongtrappa
+tile.nev.brown_concrete_stairs.name=Brun Betongtrappa
+tile.nev.green_concrete_stairs.name=Grön Betongtrappa
+tile.nev.red_concrete_stairs.name=Röd Betongtrappa
+tile.nev.black_concrete_stairs.name=Svart Betongtrappa
+
+# Concrete slab variations
+tile.nev.white_concrete_slab.name=Vit Betongplatta
+tile.nev.orange_concrete_slab.name=Orange Betongplatta
+tile.nev.magenta_concrete_slab.name=Ljuslila Betongplatta
+tile.nev.light_blue_concrete_slab.name=Ljusblå Betongplatta
+tile.nev.yellow_concrete_slab.name=Gul Betongplatta
+tile.nev.lime_concrete_slab.name=Limegrön Betongplatta
+tile.nev.pink_concrete_slab.name=Rosa Betongplatta
+tile.nev.gray_concrete_slab.name=Grå Betongplatta
+tile.nev.light_gray_concrete_slab.name=Ljusgrå Betongplatta
+tile.nev.cyan_concrete_slab.name=Turkos Betongplatta
+tile.nev.purple_concrete_slab.name=Lila Betongplatta
+tile.nev.blue_concrete_slab.name=Blå Betongplatta
+tile.nev.brown_concrete_slab.name=Brun Betongplatta
+tile.nev.green_concrete_slab.name=Grön Betongplatta
+tile.nev.red_concrete_slab.name=Röd Betongplatta
+tile.nev.black_concrete_slab.name=Svart Betongplatta
+
+# Wool stair variations
+tile.nev.white_wool_stairs.name=Vit Ulltrappa
+tile.nev.orange_wool_stairs.name=Orange Ulltrappa
+tile.nev.magenta_wool_stairs.name=Ljuslila Ulltrappa
+tile.nev.light_blue_wool_stairs.name=Ljusblå Ulltrappa
+tile.nev.yellow_wool_stairs.name=Gul Ulltrappa
+tile.nev.lime_wool_stairs.name=Limegrön Ulltrappa
+tile.nev.pink_wool_stairs.name=Rosa Ulltrappa
+tile.nev.gray_wool_stairs.name=Grå Ulltrappa
+tile.nev.light_gray_wool_stairs.name=Ljusgrå Ulltrappa
+tile.nev.cyan_wool_stairs.name=Turkos Ulltrappa
+tile.nev.purple_wool_stairs.name=Lila Ulltrappa
+tile.nev.blue_wool_stairs.name=Blå Ulltrappa
+tile.nev.brown_wool_stairs.name=Brun Ulltrappa
+tile.nev.green_wool_stairs.name=Grön Ulltrappa
+tile.nev.red_wool_stairs.name=Röd Ulltrappa
+tile.nev.black_wool_stairs.name=Svart Ulltrappa
+
+# Wool slab variations
+tile.nev.white_wool_slab.name=Vit Ullplatta
+tile.nev.orange_wool_slab.name=Orange Ullplatta
+tile.nev.magenta_wool_slab.name=Ljuslila Ullplatta
+tile.nev.light_blue_wool_slab.name=Ljusblå Ullplatta
+tile.nev.yellow_wool_slab.name=Gul Ullplatta
+tile.nev.lime_wool_slab.name=Limegrön Ullplatta
+tile.nev.pink_wool_slab.name=Rosa Ullplatta
+tile.nev.gray_wool_slab.name=Grå Ullplatta
+tile.nev.light_gray_wool_slab.name=Ljusgrå Ullplatta
+tile.nev.cyan_wool_slab.name=Turkos Ullplatta
+tile.nev.purple_wool_slab.name=Lila Ullplatta
+tile.nev.blue_wool_slab.name=Blå Ullplatta
+tile.nev.brown_wool_slab.name=Brun Ullplatta
+tile.nev.green_wool_slab.name=Grön Ullplatta
+tile.nev.red_wool_slab.name=Röd Ullplatta
+tile.nev.black_wool_slab.name=Svart Ullplatta
+
+## Stone variations
+# Andesite variations
+tile.nev.andesite_slab.name=Andesitplatta
+tile.nev.andesite_stairs.name=Andesittrappa
+tile.nev.polished_andesite_slab.name=Polished Andesitplatta
+tile.nev.polished_andesite_stairs.name=Polished Andesittrappa
+# Diorite variations
+tile.nev.diorite_slab.name=Dioritplatta
+tile.nev.diorite_stairs.name=Diorittrappa
+tile.nev.polished_diorite_slab.name=Polished Dioritplatta
+tile.nev.polished_diorite_stairs.name=Polished Diorittrappa
+# Granite variations
+tile.nev.granite_slab.name=Granitplatta
+tile.nev.granite_stairs.name=Granittrappa
+tile.nev.polished_granite_slab.name=Polished Granitplatta
+tile.nev.polished_granite_stairs.name=Polished Granittrappa
+# Mossy stone variations
+tile.nev.mossy_cobblestone_slab.name=Mossig Kullerstensplatta
+tile.nev.mossy_cobblestone_stairs.name=Mossig Kullerstenstrappa
+tile.nev.mossy_stone_bricks_slab.name=Mossig Murstensplatta
+tile.nev.mossy_stone_brick_stairs.name=Mossig Murstenstrappa
+
+# Prismarine variations
+tile.nev.prismarine_slab.name=Prismarinplatta
+tile.nev.prismarine_stairs.name=Prismarintrappa
+tile.nev.prismarine_bricks_slab.name=Prismarintegelplatta
+tile.nev.prismarine_brick_stairs.name=Prismarintegeltrappa
+tile.nev.dark_prismarine_slab.name=Mörk prismarinplatta
+tile.nev.dark_prismarine_stairs.name=Mörk Prismarintrappa
+
+# Nether variations
+tile.nev.red_nether_bricks_slab.name=Röd Methertegelplatta
+tile.nev.red_nether_brick_stairs.name=Röd Methertegeltrappa
+
+# End variations
+tile.nev.end_stone_bricks_slab.name=Endmurstensplatta
+tile.nev.end_stone_brick_stairs.name=Endmurstenstrappa
+
+# Creative inventory tab
+itemGroup.nev.not_enough_variations=Not Enough Variations
