@@ -1,4 +1,4 @@
-# Вариации ступенек из бетона
+# Concrete stair variations
 tile.nev.white_concrete_stairs.name=Ступени из белого бетона
 tile.nev.orange_concrete_stairs.name=Ступени из оранжевого бетона
 tile.nev.magenta_concrete_stairs.name=Ступени из пурпурного бетона
@@ -16,7 +16,7 @@ tile.nev.green_concrete_stairs.name=Ступени из зелёного бет�
 tile.nev.red_concrete_stairs.name=Ступени из красного бетона
 tile.nev.black_concrete_stairs.name=Ступени из чёрного бетона
 
-# Вариации полублоков из бетона
+# Concrete slab variations
 tile.nev.white_concrete_slab.name=Плита из чёрного бетона
 tile.nev.orange_concrete_slab.name=Плита из оранжевого бетона
 tile.nev.magenta_concrete_slab.name=Плита из пурпурного бетона
@@ -52,7 +52,7 @@ tile.nev.green_wool_stairs.name=Ступени из зелёной шерсти
 tile.nev.red_wool_stairs.name=Ступени из красной шерсти
 tile.nev.black_wool_stairs.name=Ступени из чёрной шерсти
 
-# Вариации полублоков из шерсти
+# Wool stair variations
 tile.nev.white_wool_slab.name=Плита из белой шерсти
 tile.nev.orange_wool_slab.name=Плита из оранжевой шерсти
 tile.nev.magenta_wool_slab.name=Плита из пурпурной шерсти
@@ -70,13 +70,13 @@ tile.nev.green_wool_slab.name=Плита из зелёной шерсти
 tile.nev.red_wool_slab.name=Плита из красной шерсти
 tile.nev.black_wool_slab.name=Плита из белой шерсти
 
-## Камни
-# Андезит
+## Stone variations
+# Andesite variations
 tile.nev.andesite_slab.name=Андезитовая плита
 tile.nev.andesite_stairs.name=Андезитовые ступени
 tile.nev.polished_andesite_slab.name=Плита из полированного андезита
 tile.nev.polished_andesite_stairs.name=Ступени из полированного андезита
-# Диорит
+# Diorite variations
 tile.nev.diorite_slab.name=Диоритовая плита
 tile.nev.diorite_stairs.name=Диоритовые ступени
 tile.nev.polished_diorite_slab.name=Плита из полированного диорита 
@@ -108,5 +108,5 @@ tile.nev.red_nether_brick_stairs.name=Ступеньки из красных а�
 tile.nev.end_stone_bricks_slab.name=Плита из эндерняковых кирпичей
 tile.nev.end_stone_brick_stairs.name=Ступеньки из эндерняковых кирпичей
 
-# Вкладка "Творческий инвентарь"
+# Creative inventory tab
 itemGroup.nev.not_enough_variations=Not Enough Variations
