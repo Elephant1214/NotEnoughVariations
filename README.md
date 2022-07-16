@@ -16,5 +16,6 @@ Creative Commons Attribution-NonCommercial 4.0 International Public License
 Chinese - [KMEHSilhouette](https://github.com/KMEHSilhouette) and Leafy\
 German - [Whomsky](https://github.com/Whomsky)\
 Russian - [bottleofench](https://github.com/bottleofench)\
+Swedish - [Fripe](https://github.com/Fripe070)
 \
 Want to help with translations? Make a PR and add them to the matching lang file [here](https://github.com/Elephant1214/NotEnoughVariations/tree/main/src/main/resources/assets/nev/lang).
