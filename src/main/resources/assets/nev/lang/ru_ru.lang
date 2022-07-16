@@ -1,69 +1,112 @@
-tile.nev.white_concrete_stairs.name=Ступеньки из белого бетона
-tile.nev.orange_concrete_stairs.name=Ступеньки из оранжевого бетона
-tile.nev.magenta_concrete_stairs.name=Ступеньки из пурпурного бетона
-tile.nev.light_blue_concrete_stairs.name=Ступеньки из голубого бетона
-tile.nev.yellow_concrete_stairs.name=Ступеньки из жёлтого бетона
-tile.nev.lime_concrete_stairs.name=Ступеньки из лаймового бетона
-tile.nev.pink_concrete_stairs.name=Ступеньки из розового бетона
-tile.nev.gray_concrete_stairs.name=Ступеньки из серого бетона
-tile.nev.light_gray_concrete_stairs.name=Ступеньки из светло-серого бетона
-tile.nev.cyan_concrete_stairs.name=Ступеньки из бирюзового бетона
-tile.nev.purple_concrete_stairs.name=Ступеньки из фиолетового бетона
-tile.nev.blue_concrete_stairs.name=Ступеньки из синего бетона
-tile.nev.brown_concrete_stairs.name=Ступеньки из коричневого бетона
-tile.nev.green_concrete_stairs.name=Ступеньки из зелёного бетона
-tile.nev.red_concrete_stairs.name=Ступеньки из красного бетона
-tile.nev.black_concrete_stairs.name=Ступеньки из чёрного бетона
+# Вариации ступенек из бетона
+tile.nev.white_concrete_stairs.name=Ступени из белого бетона
+tile.nev.orange_concrete_stairs.name=Ступени из оранжевого бетона
+tile.nev.magenta_concrete_stairs.name=Ступени из пурпурного бетона
+tile.nev.light_blue_concrete_stairs.name=Ступени из голубого бетона
+tile.nev.yellow_concrete_stairs.name=Ступени из жёлтого бетона
+tile.nev.lime_concrete_stairs.name=Ступени из лаймового бетона
+tile.nev.pink_concrete_stairs.name=Ступени из розового бетона
+tile.nev.gray_concrete_stairs.name=Ступени из серого бетона
+tile.nev.light_gray_concrete_stairs.name=Ступени из светло-серого бетона
+tile.nev.cyan_concrete_stairs.name=Ступени из бирюзового бетона
+tile.nev.purple_concrete_stairs.name=Ступени из фиолетового бетона
+tile.nev.blue_concrete_stairs.name=Ступени из синего бетона
+tile.nev.brown_concrete_stairs.name=Ступени из коричневого бетона
+tile.nev.green_concrete_stairs.name=Ступени из зелёного бетона
+tile.nev.red_concrete_stairs.name=Ступени из красного бетона
+tile.nev.black_concrete_stairs.name=Ступени из чёрного бетона
 
-tile.nev.white_concrete_slab.name=Полублоки из чёрного бетона
-tile.nev.orange_concrete_slab.name=Полублоки из оранжевого бетона
-tile.nev.magenta_concrete_slab.name=Полублоки из пурпурного бетона
-tile.nev.light_blue_concrete_slab.name=Полублоки из голубого бетона
-tile.nev.yellow_concrete_slab.name=Полублоки из жёлтого бетона
-tile.nev.lime_concrete_slab.name=Полублоки из лаймового бетона
-tile.nev.pink_concrete_slab.name=Полублоки из розового бетона
-tile.nev.gray_concrete_slab.name=Полублоки из серого бетона
-tile.nev.light_gray_concrete_slab.name=Полублоки из светло-серого бетона
-tile.nev.cyan_concrete_slab.name=Полублоки из бирюзового бетона
-tile.nev.purple_concrete_slab.name=Полублоки из фиолетового бетона
-tile.nev.blue_concrete_slab.name=Полублоки из синего бетона
-tile.nev.brown_concrete_slab.name=Полублоки из коричневого бетона
-tile.nev.green_concrete_slab.name=Полублоки из зелёного бетона
-tile.nev.red_concrete_slab.name=Полублоки из красного бетона
-tile.nev.black_concrete_slab.name=Полублоки из чёрного бетона
+# Вариации полублоков из бетона
+tile.nev.white_concrete_slab.name=Плита из чёрного бетона
+tile.nev.orange_concrete_slab.name=Плита из оранжевого бетона
+tile.nev.magenta_concrete_slab.name=Плита из пурпурного бетона
+tile.nev.light_blue_concrete_slab.name=Плита из голубого бетона
+tile.nev.yellow_concrete_slab.name=Плита из жёлтого бетона
+tile.nev.lime_concrete_slab.name=Плита из лаймового бетона
+tile.nev.pink_concrete_slab.name=Плита из розового бетона
+tile.nev.gray_concrete_slab.name=Плита из серого бетона
+tile.nev.light_gray_concrete_slab.name=Плита из светло-серого бетона
+tile.nev.cyan_concrete_slab.name=Плита из бирюзового бетона
+tile.nev.purple_concrete_slab.name=Плита из фиолетового бетона
+tile.nev.blue_concrete_slab.name=Плита из синего бетона
+tile.nev.brown_concrete_slab.name=Плита из коричневого бетона
+tile.nev.green_concrete_slab.name=Плита из зелёного бетона
+tile.nev.red_concrete_slab.name=Плита из красного бетона
+tile.nev.black_concrete_slab.name=Плита из чёрного бетона
 
-tile.nev.white_wool_stairs.name=Ступеньки из белой шерсти
-tile.nev.orange_wool_stairs.name=Ступеньки из оранжевой шерсти
-tile.nev.magenta_wool_stairs.name=Ступеньки из пурпурной шерсти
-tile.nev.light_blue_wool_stairs.name=Ступеньки из голубой шерсти
-tile.nev.yellow_wool_stairs.name=Ступеньки из жёлтой шерсти
-tile.nev.lime_wool_stairs.name=Ступеньки из лаймовой шерсти
-tile.nev.pink_wool_stairs.name=Ступеньки из розовой шерсти
-tile.nev.gray_wool_stairs.name=Ступеньки из серой шерсти
-tile.nev.light_gray_wool_stairs.name=Ступеньки из светло-серой шерсти
-tile.nev.cyan_wool_stairs.name=Ступеньки из бирюзовой шерсти
-tile.nev.purple_wool_stairs.name=Ступеньки из фиолетовой шерсти
-tile.nev.blue_wool_stairs.name=Ступеньки из синей шерсти
-tile.nev.brown_wool_stairs.name=Ступеньки из белой шерсти
-tile.nev.green_wool_stairs.name=Ступеньки из зелёной шерсти
-tile.nev.red_wool_stairs.name=Ступеньки из красной шерсти
-tile.nev.black_wool_stairs.name=Ступеньки из чёрной шерсти
+# Вариации ступенек из шерсти
+tile.nev.white_wool_stairs.name=Ступени из белой шерсти
+tile.nev.orange_wool_stairs.name=Ступени из оранжевой шерсти
+tile.nev.magenta_wool_stairs.name=Ступени из пурпурной шерсти
+tile.nev.light_blue_wool_stairs.name=Ступени из голубой шерсти
+tile.nev.yellow_wool_stairs.name=Ступени из жёлтой шерсти
+tile.nev.lime_wool_stairs.name=Ступени из лаймовой шерсти
+tile.nev.pink_wool_stairs.name=Ступени из розовой шерсти
+tile.nev.gray_wool_stairs.name=Ступени из серой шерсти
+tile.nev.light_gray_wool_stairs.name=Ступени из светло-серой шерсти
+tile.nev.cyan_wool_stairs.name=Ступени из бирюзовой шерсти
+tile.nev.purple_wool_stairs.name=Ступени из фиолетовой шерсти
+tile.nev.blue_wool_stairs.name=Ступени из синей шерсти
+tile.nev.brown_wool_stairs.name=Ступени из белой шерсти
+tile.nev.green_wool_stairs.name=Ступени из зелёной шерсти
+tile.nev.red_wool_stairs.name=Ступени из красной шерсти
+tile.nev.black_wool_stairs.name=Ступени из чёрной шерсти
 
-tile.nev.white_wool_slab.name=Полублоки из белой шерсти
-tile.nev.orange_wool_slab.name=Полублоки из оранжевой шерсти
-tile.nev.magenta_wool_slab.name=Полублоки из пурпурной шерсти
-tile.nev.light_blue_wool_slab.name=Полублоки из голубой шерсти
-tile.nev.yellow_wool_slab.name=Полублоки из жёлтой шерсти
-tile.nev.lime_wool_slab.name=Полублоки из лаймовой шерсти
-tile.nev.pink_wool_slab.name=Полублоки из розовой шерсти
-tile.nev.gray_wool_slab.name=Полублоки из серой шерсти
-tile.nev.light_gray_wool_slab.name=Полублоки из светло-серой шерсти
-tile.nev.cyan_wool_slab.name=Полублоки из бирюзовой шерсти
-tile.nev.purple_wool_slab.name=Полублоки из фиолетовой шерсти
-tile.nev.blue_wool_slab.name=Полублоки из синей шерсти
-tile.nev.brown_wool_slab.name=Полублоки из коричневой шерсти
-tile.nev.green_wool_slab.name=Полублоки из зёлёной шерсти
-tile.nev.red_wool_slab.name=Полублоки из красной шерсти
-tile.nev.black_wool_slab.name=Полублоки из белой шерсти
+# Вариации полублоков из шерсти
+tile.nev.white_wool_slab.name=Плита из белой шерсти
+tile.nev.orange_wool_slab.name=Плита из оранжевой шерсти
+tile.nev.magenta_wool_slab.name=Плита из пурпурной шерсти
+tile.nev.light_blue_wool_slab.name=Плита из голубой шерсти
+tile.nev.yellow_wool_slab.name=Плита из жёлтой шерсти
+tile.nev.lime_wool_slab.name=Плита из лаймовой шерсти
+tile.nev.pink_wool_slab.name=Плита из розовой шерсти
+tile.nev.gray_wool_slab.name=Плита из серой шерсти
+tile.nev.light_gray_wool_slab.name=Плита из светло-серой шерсти
+tile.nev.cyan_wool_slab.name=Плита из бирюзовой шерсти
+tile.nev.purple_wool_slab.name=Плита из фиолетовой шерсти
+tile.nev.blue_wool_slab.name=Плита из синей шерсти
+tile.nev.brown_wool_slab.name=Плита из коричневой шерсти
+tile.nev.green_wool_slab.name=Плита из зелёной шерсти
+tile.nev.red_wool_slab.name=Плита из красной шерсти
+tile.nev.black_wool_slab.name=Плита из белой шерсти
 
+## Камни
+# Андезит
+tile.nev.andesite_slab.name=Андезитовая плита
+tile.nev.andesite_stairs.name=Андезитовые ступени
+tile.nev.polished_andesite_slab.name=Плита из полированного андезита
+tile.nev.polished_andesite_stairs.name=Ступени из полированного андезита
+# Диорит
+tile.nev.diorite_slab.name=Диоритовая плита
+tile.nev.diorite_stairs.name=Диоритовые ступени
+tile.nev.polished_diorite_slab.name=Плита из полированного диорита 
+tile.nev.polished_diorite_stairs.name=Ступени из полированного диорита
+# Granite variations
+tile.nev.granite_slab.name=Гранитная плита
+tile.nev.granite_stairs.name=Гранитные ступеньки
+tile.nev.polished_granite_slab.name=Плита из полированного гранита
+tile.nev.polished_granite_stairs.name=Ступеньки из полированного гранита
+# Mossy stone variations
+tile.nev.mossy_cobblestone_slab.name=Плита из замшелого булыжника
+tile.nev.mossy_cobblestone_stairs.name=Ступеньки из замшелого булыжника
+tile.nev.mossy_stone_bricks_slab.name=Плита из замшелых каменных кирпичей
+tile.nev.mossy_stone_brick_stairs.name=Ступеньки из замшелых каменных кирпичей
+
+# Prismarine variations
+tile.nev.prismarine_slab.name=Призмариновая плита
+tile.nev.prismarine_stairs.name=Ступеньки из призмарина
+tile.nev.prismarine_bricks_slab.name=Плита из призмариновых кирпичей
+tile.nev.prismarine_brick_stairs.name=Ступеньки из призмариновых кирпичей
+tile.nev.dark_prismarine_slab.name=Плита из тёмного призмарина
+tile.nev.dark_prismarine_stairs.name=Ступеньки из тёмного призмарина
+
+# Nether variations
+tile.nev.red_nether_bricks_slab.name=Плита из красных адских кирпичей
+tile.nev.red_nether_brick_stairs.name=Ступеньки из красных адских кирпичей
+
+# End variations
+tile.nev.end_stone_bricks_slab.name=Плита из эндерняковых кирпичей
+tile.nev.end_stone_brick_stairs.name=Ступеньки из эндерняковых кирпичей
+
+# Вкладка "Творческий инвентарь"
 itemGroup.nev.not_enough_variations=Not Enough Variations
