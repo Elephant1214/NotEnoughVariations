@@ -10,7 +10,7 @@ A simple Minecraft mod for Forge that adds seemingly missing variations of vanil
 Clone the repository/your fork into a folder and drag the Forge 14.23.5.2860 MDK into the same folder without overriding anything; follow the setup instructions provided by Forge for your IDE. Make a pull request and make any modifications, or run the `build` task to build the mod.
 
 ## License
-Creative Commons Attribution-NonCommercial 4.0 International Public License
+This mod is licensed under the [DBAD Public License](https://dbad-license.org/)
 
 ## Translations
 Chinese - [KMEHSilhouette](https://github.com/KMEHSilhouette) and Leafy\
