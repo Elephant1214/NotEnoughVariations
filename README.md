@@ -9,9 +9,6 @@ A simple Minecraft mod for Forge that adds seemingly missing variations of vanil
 ## Building from Source and Contributing
 Clone the repository/your fork into a folder and drag the Forge 14.23.5.2860 MDK into the same folder without overriding anything; follow the setup instructions provided by Forge for your IDE. Make a pull request and make any modifications, or run the `build` task to build the mod.
 
-## License
-This mod is licensed under the [DBAD Public License](https://dbad-license.org/)
-
 ## Translations
 Chinese - [KMEHSilhouette](https://github.com/KMEHSilhouette) and Leafy\
 German - [Whomsky](https://github.com/Whomsky)\
@@ -19,3 +16,6 @@ Russian - [bottleofench](https://github.com/bottleofench)\
 Swedish - [Fripe](https://github.com/Fripe070)\
 \
 Want to help with translations? Make a PR and add them to the matching lang file [here](https://github.com/Elephant1214/NotEnoughVariations/tree/main/src/main/resources/assets/nev/lang).
+
+## License
+This mod is licensed under the [DBAD Public License](https://dbad-license.org/)
