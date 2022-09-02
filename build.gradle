@@ -1,43 +1,28 @@
 buildscript {
     repositories {
-        maven {
-            name = "ForgeGradle"
-            url = "https://maven.minecraftforge.net/"
-        }
-        maven {
-            name = "FancyGradle"
-            url = "https://gitlab.com/api/v4/projects/26758973/packages/maven"
-        }
+        maven { url = "https://maven.minecraftforge.net/" }
         mavenCentral()
     }
     dependencies {
-        classpath "net.minecraftforge.gradle:ForgeGradle:4.+"
-        classpath group: "wtf.gofancy.fancygradle", name: "wtf.gofancy.fancygradle.gradle.plugin", version: "1.1.+"
+        classpath group: "net.minecraftforge.gradle", name: "ForgeGradle", version: "5.+", changing: true
     }
 }
 
 apply plugin: "idea"
 apply plugin: "net.minecraftforge.gradle"
-apply plugin: "wtf.gofancy.fancygradle"
 
-String modid = "notenoughvariations"
-version = "1.12.2-0.3.1"
-group = "nathan.${modid}" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "NotEnoughVariations"
+version = mcversion + "-" + mod_version
+group = mod_group
+archivesBaseName = archive_name
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = "1.8"
-
-fancyGradle {
-    patches {
-        resources
-    }
+sourceCompatibility = targetCompatibility = "1.8"
+compileJava {
+    options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
 }
 
 idea {
     module {
         inheritOutputDirs = true
-        outputDir = compileJava.destinationDir
-        testOutputDir = compileTestJava.destinationDir
     }
 }
 
@@ -62,32 +47,6 @@ minecraft {
 
 dependencies {
     minecraft "net.minecraftforge:forge:1.12.2-14.23.5.2860"
-
-    // Real examples
-    // compile "com.mod-buildcraft:buildcraft:6.0.8:dev"  // adds buildcraft to the dev env
-    // compile "com.googlecode.efficient-java-matrix-library:ejml:0.24" // adds ejml to the dev env
-
-    // For more info...
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
 }
 
-// Example for how to get properties into the manifest for reading by the runtime..
-jar {
-    manifest {
-        attributes(["Specification-Title"     : "${modid}",
-                    "Specification-Vendor"    : "nathan",
-                    "Specification-Version"   : "0.3.0", // We are version 1 of ourselves
-                    "Implementation-Title"    : project.name,
-                    "Implementation-Version"  : "${project.version}",
-                    "Implementation-Vendor"   : "nathan",
-                    "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")])
-    }
-}
-
-// Example configuration to allow publishing using the maven-publish task
-// This is the preferred method to reobfuscate your jar file
 jar.finalizedBy("reobfJar")
-// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
-//publish.dependsOn("reobfJar")
