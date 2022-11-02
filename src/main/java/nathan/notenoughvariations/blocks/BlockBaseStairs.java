@@ -18,19 +18,23 @@ import net.minecraft.world.World;
 import java.util.Objects;
 
 public class BlockBaseStairs extends BlockStairs {
-    public final boolean shearable;
+    protected final boolean shearable;
 
-    public BlockBaseStairs(String name, IBlockState state, CreativeTabs creativeTab, float hardness, float resistance, String toolClass, int level, boolean shearable) {
+    public BlockBaseStairs(String name, IBlockState state, CreativeTabs creativeTab, float hardness, float resistance, String toolClass, int level) {
         super(state);
         setUnlocalizedName(NotEnoughVariations.MODID + "." + name);
         setRegistryName(name);
         setCreativeTab(creativeTab);
         setHardness(hardness);
         setResistance(resistance);
-        setHarvestLevel(toolClass, level);
-
-        this.shearable = shearable;
         this.useNeighborBrightness = true;
+        if (!"shears".equals(toolClass)) {
+            setHarvestLevel(toolClass, level);
+            this.shearable = false;
+        } else {
+            this.shearable = true;
+        }
+
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(Objects.requireNonNull(this.getRegistryName())));
     }

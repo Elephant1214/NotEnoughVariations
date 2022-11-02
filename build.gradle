@@ -30,17 +30,14 @@ minecraft {
     //mappings channel: "snapshot", version: "20171003-1.12"
     mappings channel: "snapshot", version: "20171003-1.12"
 
+    // Don't include the logger stuff to hopefully fix the air blockstate error
     runs {
         client {
             workingDirectory project.file("run")
-            property "forge.logging.markers", "SCAN,REGISTRIES,REGISTRYDUMP"
-            property "forge.logging.console.level", "debug"
         }
 
         server {
             workingDirectory project.file("runServer")
-            property "forge.logging.markers", "SCAN,REGISTRIES,REGISTRYDUMP"
-            property "forge.logging.console.level", "debug"
         }
     }
 }

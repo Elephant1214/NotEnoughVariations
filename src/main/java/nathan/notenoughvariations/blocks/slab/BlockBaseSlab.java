@@ -24,26 +24,30 @@ import net.minecraft.world.World;
 import java.util.Random;
 
 public abstract class BlockBaseSlab extends BlockSlab {
-    public static final PropertyEnum<Variant> VARIANT = PropertyEnum.create("variant", Variant.class);
-    public final boolean shearable;
+    protected static final PropertyEnum<Variant> VARIANT = PropertyEnum.create("variant", Variant.class);
+    protected final boolean shearable;
 
-    public BlockBaseSlab(String name, Material material, MapColor mapColor, float hardness, float resistance, SoundType sound, String toolClass, int level, boolean shearable) {
+    public BlockBaseSlab(String name, Material material, MapColor mapColor, float hardness, float resistance, SoundType sound, String toolClass, int level) {
         super(material, mapColor);
         setUnlocalizedName(NotEnoughVariations.MODID + "." + name);
         setRegistryName(name);
         setHardness(hardness);
         setResistance(resistance);
         setSoundType(sound);
-        setHarvestLevel(toolClass, level);
         this.useNeighborBrightness = !this.isDouble();
-        this.shearable = shearable;
+        if (!"shears".equals(toolClass)) {
+            setHarvestLevel(toolClass, level);
+            this.shearable = false;
+        } else {
+            this.shearable = true;
+        }
 
         IBlockState blockState = this.getBlockState().getBaseState().withProperty(VARIANT, Variant.DEFAULT);
         if (!this.isDouble()) {
             blockState = blockState.withProperty(HALF, EnumBlockHalf.BOTTOM);
         }
-
         this.setDefaultState(blockState);
+
         BlockInit.BLOCKS.add(this);
     }
 
@@ -150,7 +154,7 @@ public abstract class BlockBaseSlab extends BlockSlab {
         return Variant.DEFAULT;
     }
 
-    public enum Variant implements IStringSerializable {
+    protected enum Variant implements IStringSerializable {
         DEFAULT;
 
         @Override

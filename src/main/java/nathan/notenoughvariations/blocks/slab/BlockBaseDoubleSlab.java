@@ -10,8 +10,8 @@ import net.minecraft.item.Item;
 import java.util.Random;
 
 public class BlockBaseDoubleSlab extends BlockBaseSlab {
-    public BlockBaseDoubleSlab(String name, Material material, MapColor mapColor, float hardness, float resistance, SoundType sound, String toolClass, int level, boolean shearable) {
-        super(name, material, mapColor, hardness, resistance, sound, toolClass, level, shearable);
+    public BlockBaseDoubleSlab(String name, Material material, MapColor mapColor, float hardness, float resistance, SoundType sound, String toolClass, int level) {
+        super(name, material, mapColor, hardness, resistance, sound, toolClass, level);
     }
 
     @Override
