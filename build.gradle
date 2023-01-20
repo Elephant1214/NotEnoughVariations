@@ -1,15 +1,18 @@
 buildscript {
     repositories {
         maven { url = "https://maven.minecraftforge.net/" }
+        maven { url = "https://maven.gofancy.wtf/releases" }
         mavenCentral()
     }
     dependencies {
         classpath group: "net.minecraftforge.gradle", name: "ForgeGradle", version: "5.+", changing: true
+        classpath group: "wtf.gofancy.fancygradle", name: "wtf.gofancy.fancygradle.gradle.plugin", version: "1.1.+"
     }
 }
 
 apply plugin: "idea"
 apply plugin: "net.minecraftforge.gradle"
+apply plugin: "wtf.gofancy.fancygradle"
 
 version = mcversion + "-" + mod_version
 group = mod_group
@@ -26,11 +29,16 @@ idea {
     }
 }
 
+fancyGradle {
+    patches {
+        resources
+    }
+}
+
 minecraft {
     //mappings channel: "snapshot", version: "20171003-1.12"
     mappings channel: "snapshot", version: "20171003-1.12"
 
-    // Don't include the logger stuff to hopefully fix the air blockstate error
     runs {
         client {
             workingDirectory project.file("run")
