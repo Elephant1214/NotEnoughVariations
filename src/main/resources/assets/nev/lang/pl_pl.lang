@@ -1,0 +1,112 @@
+# Concrete stair variations
+tile.nev.white_concrete_stairs.name=Białe betonowe schody
+tile.nev.orange_concrete_stairs.name=Pomarańczowe betonowe schody
+tile.nev.magenta_concrete_stairs.name=Karmazynowe betonowe schody
+tile.nev.light_blue_concrete_stairs.name=Jasno niebieskie betonowe schody
+tile.nev.yellow_concrete_stairs.name=Żółte betonowe schody
+tile.nev.lime_concrete_stairs.name=Limonkowe betonowe schody
+tile.nev.pink_concrete_stairs.name=Różowe betonowe schody
+tile.nev.gray_concrete_stairs.name=Szare betonowe schody
+tile.nev.light_gray_concrete_stairs.name=Jasno szare betonowe schody
+tile.nev.cyan_concrete_stairs.name=Turkusowe betonowe schody
+tile.nev.purple_concrete_stairs.name=Fioletowe betonowe schody
+tile.nev.blue_concrete_stairs.name=Niebieskie betonowe schody
+tile.nev.brown_concrete_stairs.name=Brązowe betonowe schody
+tile.nev.green_concrete_stairs.name=Zielone betonowe schody
+tile.nev.red_concrete_stairs.name=Czerwone betonowe schody
+tile.nev.black_concrete_stairs.name=Czarne betonowe schody
+
+# Concrete slab variations
+tile.nev.white_concrete_slab.name=Biała płyta betonowa
+tile.nev.orange_concrete_slab.name=Pomarańczowa płyta betonowa
+tile.nev.magenta_concrete_slab.name=Karmazynowa płyta betonowa
+tile.nev.light_blue_concrete_slab.name=Jasno niebieska płyta betonowa
+tile.nev.yellow_concrete_slab.name=Żółta płyta betonowa
+tile.nev.lime_concrete_slab.name=Limonkowa płyta betonowa
+tile.nev.pink_concrete_slab.name=Różowa płyta betonowa
+tile.nev.gray_concrete_slab.name=Szara płyta betonowa
+tile.nev.light_gray_concrete_slab.name=Jasno szara płyta betonowa
+tile.nev.cyan_concrete_slab.name=Turkusowa płyta betonowa
+tile.nev.purple_concrete_slab.name=Fioletowa płyta betonowa
+tile.nev.blue_concrete_slab.name=Niebieska płyta betonowa
+tile.nev.brown_concrete_slab.name=Brązowa płyta betonowa
+tile.nev.green_concrete_slab.name=Zielona płyta betonowa
+tile.nev.red_concrete_slab.name=Czerwona płyta betonowa
+tile.nev.black_concrete_slab.name=Czarna płyta betonowa
+
+# Wool stair variations
+tile.nev.white_wool_stairs.name=Białe Wełniane schody
+tile.nev.orange_wool_stairs.name=Pomarańczowe Wełniane schody
+tile.nev.magenta_wool_stairs.name=Karmazynowe Wełniane schody
+tile.nev.light_blue_wool_stairs.name=Jasno niebieskie Wełniane schody
+tile.nev.yellow_wool_stairs.name=Żółte Wełniane schody
+tile.nev.lime_wool_stairs.name=Limonkowe Wełniane schody
+tile.nev.pink_wool_stairs.name=Różowe Wełniane schody
+tile.nev.gray_wool_stairs.name=Szare Wełniane schody
+tile.nev.light_gray_wool_stairs.name=Jasno szare Wełniane schody
+tile.nev.cyan_wool_stairs.name=Turkusowe Wełniane schody
+tile.nev.purple_wool_stairs.name=Fioletowe Wełniane schody
+tile.nev.blue_wool_stairs.name=Niebieskie Wełniane schody
+tile.nev.brown_wool_stairs.name=Brązowe Wełniane schody
+tile.nev.green_wool_stairs.name=Zielone Wełniane schody
+tile.nev.red_wool_stairs.name=Czerwone Wełniane schody
+tile.nev.black_wool_stairs.name=Czarne Wełniane schody
+
+# Wool slab variations
+tile.nev.white_wool_slab.name=Biała płyta wełniana
+tile.nev.orange_wool_slab.name=Pomarańczowa płyta wełniana
+tile.nev.magenta_wool_slab.name=Karmazynowa płyta wełniana
+tile.nev.light_blue_wool_slab.name=Jasno niebieska płyta wełniana
+tile.nev.yellow_wool_slab.name=Żółta płyta wełniana
+tile.nev.lime_wool_slab.name=Limonkowa płyta wełniana
+tile.nev.pink_wool_slab.name=Różowa płyta wełniana
+tile.nev.gray_wool_slab.name=Szara płyta wełniana
+tile.nev.light_gray_wool_slab.name=Jasno szara płyta wełniana
+tile.nev.cyan_wool_slab.name=Turkusowa płyta wełniana
+tile.nev.purple_wool_slab.name=Fioletowa płyta wełniana
+tile.nev.blue_wool_slab.name=Niebieska płyta wełniana
+tile.nev.brown_wool_slab.name=Brązowa płyta wełniana
+tile.nev.green_wool_slab.name=Zielona płyta wełniana
+tile.nev.red_wool_slab.name=Czerwona płyta wełniana
+tile.nev.black_wool_slab.name=Czarna płyta wełniana
+
+## Stone variations
+# Andesite variations
+tile.nev.andesite_slab.name=płyta andezytowa
+tile.nev.andesite_stairs.name=Schody andezytowe
+tile.nev.polished_andesite_slab.name=Polished płyta andezytowa
+tile.nev.polished_andesite_stairs.name=Polished Schody andezytowe
+# Diorite variations
+tile.nev.diorite_slab.name=płyta diorytowa
+tile.nev.diorite_stairs.name=schody diorytowe
+tile.nev.polished_diorite_slab.name=Polished płyta diorytowa
+tile.nev.polished_diorite_stairs.name=Polished schody diorytowe
+# Granite variations
+tile.nev.granite_slab.name=płyta granitowa
+tile.nev.granite_stairs.name=schody granitowe
+tile.nev.polished_granite_slab.name=Polished płyta granitowa
+tile.nev.polished_granite_stairs.name=Polished schody granitowe
+# Mossy stone variations
+tile.nev.mossy_cobblestone_slab.name=Omszała płyta brukowa
+tile.nev.mossy_cobblestone_stairs.name=Omszałe schody brukowe
+tile.nev.mossy_stone_bricks_slab.name=Mossy Stone Bricks Slab
+tile.nev.mossy_stone_brick_stairs.name=Omszałe schody z kamiennych cegieł
+
+# Prismarine variations
+tile.nev.prismarine_slab.name=pryzmarynowa płyta budowlana
+tile.nev.prismarine_stairs.name=pryzmarynowe schody
+tile.nev.prismarine_bricks_slab.name=pryzmarynowe cegły Slab
+tile.nev.prismarine_brick_stairs.name=Prismarine Brick Stairs
+tile.nev.dark_prismarine_slab.name=Ciemna pryzmarynowa płyta budowlana
+tile.nev.dark_prismarine_stairs.name=Ciemne pryzmarynowe schody
+
+# Nether variations
+tile.nev.red_nether_bricks_slab.name=Płyta budowlana z czerwonej cegły Netheru
+tile.nev.red_nether_brick_stairs.name=Schody z czerwonej cegły Netheru
+
+# End variations
+tile.nev.end_stone_bricks_slab.name=Płyta budowlana z cegły kamiennej Endu
+tile.nev.end_stone_brick_stairs.name=Schody z cegły kamiennej Endu
+
+# Creative inventory tab
+itemGroup.nev.not_enough_variations=Za Mało Odmian!
