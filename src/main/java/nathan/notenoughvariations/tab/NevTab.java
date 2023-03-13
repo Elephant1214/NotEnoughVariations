@@ -4,12 +4,9 @@ import nathan.notenoughvariations.init.BlockInit;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nonnull;
 
-@SideOnly(Side.CLIENT)
 public class NevTab extends CreativeTabs {
     public NevTab(String label) {
         super(label);

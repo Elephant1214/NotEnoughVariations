@@ -33,7 +33,6 @@ public class NotEnoughVariations {
     public static final String NAME = "Not Enough Variations";
     public static final String VERSION = "0.3.4";
     public static final Logger LOGGER = LogManager.getLogger(NotEnoughVariations.MODID);
-    @SideOnly(Side.CLIENT)
     public static final CreativeTabs NOT_ENOUGH_VARIATIONS = new NevTab(MODID + ".not_enough_variations");
     @SidedProxy(clientSide = "nathan.notenoughvariations.proxy.ClientProxy", serverSide = "nathan.notenoughvariations.proxy.ServerProxy")
     public static CommonProxy proxy;
