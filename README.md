@@ -10,8 +10,9 @@ A simple Minecraft mod for Forge that adds seemingly missing variations of vanil
 Clone the repository/your fork into a folder and import the Gradle build script into your IDE.
 
 ## Translations
-Chinese - [KMEHSilhouette](https://github.com/KMEHSilhouette) and Leafy\
+Chinese - [KMEHSilhouette](https://github.com/KMEHSilhouette) and [oLeafy](https://github.com/oLeafy)\
 German - [Whomsky](https://github.com/Whomsky)\
+Polish - [Nik Nikovsky](https://github.com/NikNikovsky/) and Oskar#2096\
 Russian - [bottleofench](https://github.com/bottleofench)\
 Swedish - [Fripe](https://github.com/Fripe070)\
 \
