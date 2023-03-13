@@ -1,4 +1,4 @@
-# Concrete stair variations
+# Concrete stairs variations
 tile.nev.white_concrete_stairs.name=Vit Betongtrappa
 tile.nev.orange_concrete_stairs.name=Orange Betongtrappa
 tile.nev.magenta_concrete_stairs.name=Ljuslila Betongtrappa
@@ -34,7 +34,7 @@ tile.nev.green_concrete_slab.name=Grön Betongplatta
 tile.nev.red_concrete_slab.name=Röd Betongplatta
 tile.nev.black_concrete_slab.name=Svart Betongplatta
 
-# Wool stair variations
+# Wool stairs variations
 tile.nev.white_wool_stairs.name=Vit Ulltrappa
 tile.nev.orange_wool_stairs.name=Orange Ulltrappa
 tile.nev.magenta_wool_stairs.name=Ljuslila Ulltrappa
@@ -70,22 +70,24 @@ tile.nev.green_wool_slab.name=Grön Ullplatta
 tile.nev.red_wool_slab.name=Röd Ullplatta
 tile.nev.black_wool_slab.name=Svart Ullplatta
 
-## Stone variations
 # Andesite variations
 tile.nev.andesite_slab.name=Andesitplatta
 tile.nev.andesite_stairs.name=Andesittrappa
 tile.nev.polished_andesite_slab.name=Polished Andesitplatta
 tile.nev.polished_andesite_stairs.name=Polished Andesittrappa
+
 # Diorite variations
 tile.nev.diorite_slab.name=Dioritplatta
 tile.nev.diorite_stairs.name=Diorittrappa
 tile.nev.polished_diorite_slab.name=Polished Dioritplatta
 tile.nev.polished_diorite_stairs.name=Polished Diorittrappa
+
 # Granite variations
 tile.nev.granite_slab.name=Granitplatta
 tile.nev.granite_stairs.name=Granittrappa
 tile.nev.polished_granite_slab.name=Polished Granitplatta
 tile.nev.polished_granite_stairs.name=Polished Granittrappa
+
 # Mossy stone variations
 tile.nev.mossy_cobblestone_slab.name=Mossig Kullerstensplatta
 tile.nev.mossy_cobblestone_stairs.name=Mossig Kullerstenstrappa

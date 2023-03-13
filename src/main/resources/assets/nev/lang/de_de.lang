@@ -1,4 +1,4 @@
-# Concrete stair variations
+# Concrete stairs variations
 tile.nev.white_concrete_stairs.name=Weiße Betontreppe
 tile.nev.orange_concrete_stairs.name=Orange Betontreppe
 tile.nev.magenta_concrete_stairs.name=Magenta Betontreppe
@@ -34,7 +34,7 @@ tile.nev.green_concrete_slab.name=Grüne Betonstufe
 tile.nev.red_concrete_slab.name=Rote Betonstufe
 tile.nev.black_concrete_slab.name=Schwarze Betonstufe
 
-# Wool stair variations
+# Wool stairs variations
 tile.nev.white_wool_stairs.name=Weiße Wolltreppe
 tile.nev.orange_wool_stairs.name=Orange Wolltreppe
 tile.nev.magenta_wool_stairs.name=Magenta Wolltreppe
@@ -70,22 +70,24 @@ tile.nev.green_wool_slab.name=Grüne Wollstufe
 tile.nev.red_wool_slab.name=Rote Wollstufe
 tile.nev.black_wool_slab.name=Schwarze Wollstufe
 
-## Stone variations
 # Andesite variations
 tile.nev.andesite_slab.name=Andesitstufe
 tile.nev.andesite_stairs.name=Andesittreppe
 tile.nev.polished_andesite_slab.name=Polierte Andesitstufe
 tile.nev.polished_andesite_stairs.name=Polierte Andesittreppe
+
 # Diorite variations
 tile.nev.diorite_slab.name=Dioritstufe
 tile.nev.diorite_stairs.name=Diorittreppe
 tile.nev.polished_diorite_slab.name=Polierte Dioritstufe
 tile.nev.polished_diorite_stairs.name=Polierte Diorittreppe
+
 # Granite variations
 tile.nev.granite_slab.name=Granitstufe
 tile.nev.granite_stairs.name=Granittreppe
 tile.nev.polished_granite_slab.name=Polierte Granitstufe
 tile.nev.polished_granite_stairs.name=Polierte Granittreppe
+
 # Mossy stone variations
 tile.nev.mossy_cobblestone_slab.name=Bemooste Bruchsteinstufe
 tile.nev.mossy_cobblestone_stairs.name=Bemooste Bruchsteintreppe

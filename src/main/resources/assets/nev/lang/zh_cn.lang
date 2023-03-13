@@ -1,3 +1,4 @@
+# Concrete stairs variations
 tile.nev.white_concrete_stairs.name=白色混凝土楼梯
 tile.nev.orange_concrete_stairs.name=橙色混凝土楼梯
 tile.nev.magenta_concrete_stairs.name=品红色混凝土楼梯
@@ -15,6 +16,7 @@ tile.nev.green_concrete_stairs.name=绿色混凝土楼梯
 tile.nev.red_concrete_stairs.name=红色混凝土楼梯
 tile.nev.black_concrete_stairs.name=黑色混凝土楼梯
 
+# Concrete slab variations
 tile.nev.white_concrete_slab.name=白色混凝土台阶
 tile.nev.orange_concrete_slab.name=橙色混凝土台阶
 tile.nev.magenta_concrete_slab.name=品红色混凝土台阶
@@ -32,6 +34,7 @@ tile.nev.green_concrete_slab.name=绿色混凝土台阶
 tile.nev.red_concrete_slab.name=红色混凝土台阶
 tile.nev.black_concrete_slab.name=黑色混凝土台阶
 
+# Wool stairs variations
 tile.nev.white_wool_stairs.name=白色羊毛楼梯
 tile.nev.orange_wool_stairs.name=橙色羊毛楼梯
 tile.nev.magenta_wool_stairs.name=品红色羊毛楼梯
@@ -49,6 +52,7 @@ tile.nev.green_wool_stairs.name=绿色羊毛楼梯
 tile.nev.red_wool_stairs.name=红色羊毛楼梯
 tile.nev.black_wool_stairs.name=黑色羊毛楼梯
 
+# Wool slab variations
 tile.nev.white_wool_slab.name=白色羊毛台阶
 tile.nev.orange_wool_slab.name=橙色羊毛台阶
 tile.nev.magenta_wool_slab.name=品红色羊毛台阶
@@ -66,4 +70,5 @@ tile.nev.green_wool_slab.name=绿色羊毛台阶
 tile.nev.red_wool_slab.name=红色羊毛台阶
 tile.nev.black_wool_slab.name=黑色羊毛台阶
 
+# Creative inventory tab
 itemGroup.nev.not_enough_variations=Not Enough Variations
