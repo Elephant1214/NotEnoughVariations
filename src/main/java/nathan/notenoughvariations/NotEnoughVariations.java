@@ -3,8 +3,8 @@ package nathan.notenoughvariations;
 import com.google.common.collect.Lists;
 import nathan.notenoughvariations.init.BlockInit;
 import nathan.notenoughvariations.proxy.CommonProxy;
-import nathan.notenoughvariations.recipes.StoneBrickStairsRecipe;
-import nathan.notenoughvariations.tabs.NevTab;
+import nathan.notenoughvariations.recipe.StoneBrickStairsRecipe;
+import nathan.notenoughvariations.tab.NevTab;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
@@ -14,6 +14,8 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.ForgeRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -29,8 +31,9 @@ import java.util.Objects;
 public class NotEnoughVariations {
     public static final String MODID = "nev";
     public static final String NAME = "Not Enough Variations";
-    public static final String VERSION = "0.3.2";
+    public static final String VERSION = "0.3.4";
     public static final Logger LOGGER = LogManager.getLogger(NotEnoughVariations.MODID);
+    @SideOnly(Side.CLIENT)
     public static final CreativeTabs NOT_ENOUGH_VARIATIONS = new NevTab(MODID + ".not_enough_variations");
     @SidedProxy(clientSide = "nathan.notenoughvariations.proxy.ClientProxy", serverSide = "nathan.notenoughvariations.proxy.ServerProxy")
     public static CommonProxy proxy;
@@ -40,15 +43,22 @@ public class NotEnoughVariations {
         removeVanillaRecipes();
     }
 
+    /**
+     * Makes the wool variations more flammable than normal blocks
+     */
     @Mod.EventHandler
     public static void init(FMLInitializationEvent event) {
         for (Block block : BlockInit.BLOCKS) {
-            if (block.getDefaultState().getMaterial().equals(Blocks.WOOL.getDefaultState().getMaterial())) {
+            if (block.getDefaultState().equals(Blocks.WOOL.getDefaultState())) {
                 Blocks.FIRE.setFireInfo(block, 30, 60);
             }
         }
     }
 
+    /**
+     * Needed to make the recipe for stone brick stairs and slabs not work
+     * with all forms of stone so that the ones from the mod actually work
+     */
     public static void removeVanillaRecipes() {
         ForgeRegistry<IRecipe> recipeRegistry = (ForgeRegistry<IRecipe>) ForgeRegistries.RECIPES;
         ArrayList<IRecipe> recipes = Lists.newArrayList(recipeRegistry.getValuesCollection());

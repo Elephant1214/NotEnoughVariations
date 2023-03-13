@@ -1,4 +1,4 @@
-package nathan.notenoughvariations.recipes;
+package nathan.notenoughvariations.recipe;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.inventory.InventoryCrafting;
@@ -8,8 +8,10 @@ import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.world.World;
 import net.minecraftforge.registries.IForgeRegistryEntry;
 
+import javax.annotation.Nonnull;
 import java.util.Objects;
 
+@SuppressWarnings("unused")
 public class StoneBricksSlabRecipe extends IForgeRegistryEntry.Impl<IRecipe> implements IRecipe {
     private final ItemStack output;
 
@@ -22,12 +24,13 @@ public class StoneBricksSlabRecipe extends IForgeRegistryEntry.Impl<IRecipe> imp
     }
 
     @Override
-    public boolean matches(InventoryCrafting inv, World worldIn) {
+    public boolean matches(@Nonnull InventoryCrafting inv, @Nonnull World worldIn) {
         return false;
     }
 
+    @Nonnull
     @Override
-    public ItemStack getCraftingResult(InventoryCrafting inv) {
+    public ItemStack getCraftingResult(@Nonnull InventoryCrafting inv) {
         return new ItemStack(Item.getItemFromBlock(Blocks.STONE_SLAB), 6, 5);
     }
 
@@ -36,6 +39,7 @@ public class StoneBricksSlabRecipe extends IForgeRegistryEntry.Impl<IRecipe> imp
         return false;
     }
 
+    @Nonnull
     @Override
     public ItemStack getRecipeOutput() {
         return output;

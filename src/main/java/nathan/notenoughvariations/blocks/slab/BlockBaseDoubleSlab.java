@@ -3,17 +3,18 @@ package nathan.notenoughvariations.blocks.slab;
 import nathan.notenoughvariations.init.BlockInit;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.MapColor;
-import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 
+import javax.annotation.Nonnull;
 import java.util.Random;
 
 public class BlockBaseDoubleSlab extends BlockBaseSlab {
-    public BlockBaseDoubleSlab(String name, Material material, MapColor mapColor, float hardness, float resistance, SoundType sound, String toolClass, int level) {
-        super(name, material, mapColor, hardness, resistance, sound, toolClass, level);
+    public BlockBaseDoubleSlab(String name, IBlockState blockState, MapColor mapColor, float hardness, float resistance, SoundType sound, String toolClass, int level, boolean canProvidePower) {
+        super(name, blockState, mapColor, hardness, resistance, sound, toolClass, level, canProvidePower);
     }
 
+    @Nonnull
     @Override
     public String getUnlocalizedName(int meta) {
         return this.getUnlocalizedName();
@@ -25,13 +26,16 @@ public class BlockBaseDoubleSlab extends BlockBaseSlab {
     }
 
     @Override
-    public int quantityDropped(Random random) {
+    public int quantityDropped(@Nonnull Random random) {
         return 2;
     }
 
     /**
-     * A better way to handle this would be greatly appreciated, current implementation is awful.
+     * Makes pick-block work
+     * A better way to handle this would be greatly appreciated, current
+     * implementation is awful.
      */
+    @Nonnull
     @Override
     public Item getItemDropped(IBlockState state, Random rand, int fortune) {
         String unlocalizedName = state.getBlock().getUnlocalizedName().toLowerCase();

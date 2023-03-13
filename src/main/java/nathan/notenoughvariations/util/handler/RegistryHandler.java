@@ -1,4 +1,4 @@
-package nathan.notenoughvariations.util.handlers;
+package nathan.notenoughvariations.util.handler;
 
 import nathan.notenoughvariations.NotEnoughVariations;
 import nathan.notenoughvariations.init.BlockInit;

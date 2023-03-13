@@ -4,30 +4,39 @@ import nathan.notenoughvariations.NotEnoughVariations;
 import nathan.notenoughvariations.init.BlockInit;
 import nathan.notenoughvariations.init.ItemInit;
 import net.minecraft.block.BlockStairs;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemShears;
+import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-import java.util.Objects;
+import javax.annotation.Nonnull;
 
+import static nathan.notenoughvariations.NotEnoughVariations.NOT_ENOUGH_VARIATIONS;
+
+@SuppressWarnings("deprecation")
 public class BlockBaseStairs extends BlockStairs {
+    protected final MapColor mapColor;
     protected final boolean shearable;
+    protected final boolean canProvidePower;
 
-    public BlockBaseStairs(String name, IBlockState state, CreativeTabs creativeTab, float hardness, float resistance, String toolClass, int level) {
+    public BlockBaseStairs(String name, IBlockState state, MapColor mapColor, float hardness, float resistance, SoundType soundType, String toolClass, int level, boolean canProvidePower) {
         super(state);
         setUnlocalizedName(NotEnoughVariations.MODID + "." + name);
         setRegistryName(name);
-        setCreativeTab(creativeTab);
+        setCreativeTab(NOT_ENOUGH_VARIATIONS);
         setHardness(hardness);
         setResistance(resistance);
+        setSoundType(soundType);
+        this.mapColor = mapColor;
         this.useNeighborBrightness = true;
+        this.canProvidePower = canProvidePower;
         if (!"shears".equals(toolClass)) {
             setHarvestLevel(toolClass, level);
             this.shearable = false;
@@ -36,11 +45,11 @@ public class BlockBaseStairs extends BlockStairs {
         }
 
         BlockInit.BLOCKS.add(this);
-        ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(Objects.requireNonNull(this.getRegistryName())));
+        ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
     @Override
-    public float getPlayerRelativeBlockHardness(IBlockState state, EntityPlayer player, World worldIn, BlockPos pos) {
+    public float getPlayerRelativeBlockHardness(@Nonnull IBlockState state, @Nonnull EntityPlayer player, @Nonnull World worldIn, @Nonnull BlockPos pos) {
         float relativeHardness = super.getPlayerRelativeBlockHardness(state, player, worldIn, pos);
         if (this.shearable && player.getHeldItemMainhand().getItem() instanceof ItemShears) {
             if (EnchantmentHelper.getEfficiencyModifier(player) != 0) {
@@ -54,51 +63,18 @@ public class BlockBaseStairs extends BlockStairs {
     }
 
     @Override
-    public MapColor getMapColor(IBlockState state, IBlockAccess worldIn, BlockPos pos) {
-        String unlocalizedName = state.getBlock().getUnlocalizedName().toLowerCase();
+    public boolean canProvidePower(@Nonnull IBlockState state) {
+        return this.canProvidePower;
+    }
 
-        if (unlocalizedName.contains("white")) {
-            return MapColor.SNOW;
-        } else if (unlocalizedName.contains("orange")) {
-            return MapColor.ADOBE;
-        } else if (unlocalizedName.contains("magenta")) {
-            return MapColor.MAGENTA;
-        } else if (unlocalizedName.contains("light_blue")) {
-            return MapColor.LIGHT_BLUE;
-        } else if (unlocalizedName.contains("yellow")) {
-            return MapColor.YELLOW;
-        } else if (unlocalizedName.contains("lime")) {
-            return MapColor.LIME;
-        } else if (unlocalizedName.contains("pink")) {
-            return MapColor.PINK;
-        } else if (unlocalizedName.contains("gray")) {
-            return MapColor.GRAY;
-        } else if (unlocalizedName.contains("light_gray")) {
-            return MapColor.SILVER;
-        } else if (unlocalizedName.contains("cyan")) {
-            return MapColor.CYAN;
-        } else if (unlocalizedName.contains("purple")) {
-            return MapColor.PURPLE;
-        } else if (unlocalizedName.contains("blue")) {
-            return MapColor.BLUE;
-        } else if (unlocalizedName.contains("brown")) {
-            return MapColor.BROWN;
-        } else if (unlocalizedName.contains("green")) {
-            return MapColor.GREEN;
-        } else if (unlocalizedName.contains("red")) {
-            return MapColor.RED;
-        } else if (unlocalizedName.contains("black")) {
-            return MapColor.BLACK;
-        } else if (unlocalizedName.contains("end")) {
-            return MapColor.SAND;
-        } else if (unlocalizedName.contains("andesite") || unlocalizedName.contains("diorite") || unlocalizedName.contains("granite") || unlocalizedName.contains("mossy_cobblestone")) {
-            return MapColor.STONE;
-        } else if (unlocalizedName.contains("red_nether")) {
-            return MapColor.NETHERRACK;
-        } else if (unlocalizedName.contains("prismarine")) {
-            return MapColor.DIAMOND;
-        } else {
-            throw new IllegalStateException("Unexpected value: " + state.getBlock());
-        }
+    @Override
+    public int getWeakPower(@Nonnull IBlockState blockState, @Nonnull IBlockAccess blockAccess, @Nonnull BlockPos pos, @Nonnull EnumFacing side) {
+        return this.canProvidePower ? 15 : super.getWeakPower(blockState, blockAccess, pos, side);
+    }
+
+    @Nonnull
+    @Override
+    public MapColor getMapColor(@Nonnull IBlockState state, @Nonnull IBlockAccess worldIn, @Nonnull BlockPos pos) {
+        return this.mapColor;
     }
 }
