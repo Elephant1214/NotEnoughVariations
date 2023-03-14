@@ -363,4 +363,50 @@ public class BlockInit {
             SoundType.STONE, "pickaxe", 0, false, (BlockBaseDoubleSlab) end_stone_bricks_double_slab);
     public static final Block end_stone_brick_stairs = new BlockBaseStairs("end_stone_brick_stairs",
             Blocks.END_STONE.getDefaultState(), SAND, 0.8F, 15F, SoundType.STONE, "pickaxe", 0, false);
+
+    // Valuable metal variations
+    // Iron
+    public static final Block iron_double_slab = new BlockBaseDoubleSlab("iron_double_slab",
+            Blocks.IRON_BLOCK.getDefaultState(), IRON, 5F, 10F, SoundType.METAL, "pickaxe", 1, false);
+    public static final Block iron_slab = new BlockBaseHalfSlab("iron_slab",
+            Blocks.IRON_BLOCK.getDefaultState(), IRON, 5F, 10F,
+            SoundType.METAL, "pickaxe", 1, false, (BlockBaseDoubleSlab) iron_double_slab);
+    public static final Block iron_stairs = new BlockBaseStairs("iron_stairs",
+            Blocks.IRON_BLOCK.getDefaultState(), IRON, 5F, 10F, SoundType.METAL, "pickaxe", 1, false);
+
+    // Redstone
+    public static final Block redstone_double_slab = new BlockBaseDoubleSlab("redstone_double_slab",
+            Blocks.REDSTONE_BLOCK.getDefaultState(), TNT, 5F, 10F, SoundType.METAL, "pickaxe", 1, true);
+    public static final Block redstone_slab = new BlockBaseHalfSlab("redstone_slab",
+            Blocks.REDSTONE_BLOCK.getDefaultState(), TNT, 5F, 10F,
+            SoundType.METAL, "pickaxe", 1, true, (BlockBaseDoubleSlab) redstone_double_slab);
+    public static final Block redstone_stairs = new BlockBaseStairs("redstone_stairs",
+            Blocks.REDSTONE_BLOCK.getDefaultState(), TNT, 5F, 10F, SoundType.METAL, "pickaxe", 1, true);
+
+    // Gold
+    public static final Block gold_double_slab = new BlockBaseDoubleSlab("gold_double_slab",
+            Blocks.GOLD_BLOCK.getDefaultState(), GOLD, 3F, 10F, SoundType.METAL, "pickaxe", 2, false);
+    public static final Block gold_slab = new BlockBaseHalfSlab("gold_slab",
+            Blocks.GOLD_BLOCK.getDefaultState(), GOLD, 3F, 10F,
+            SoundType.METAL, "pickaxe", 2, false, (BlockBaseDoubleSlab) gold_double_slab);
+    public static final Block gold_stairs = new BlockBaseStairs("gold_stairs",
+            Blocks.GOLD_BLOCK.getDefaultState(), GOLD, 3F, 10F, SoundType.METAL, "pickaxe", 2, false);
+
+    // Diamond
+    public static final Block diamond_double_slab = new BlockBaseDoubleSlab("diamond_double_slab",
+            Blocks.DIAMOND_BLOCK.getDefaultState(), DIAMOND, 5F, 10F, SoundType.METAL, "pickaxe", 2, false);
+    public static final Block diamond_slab = new BlockBaseHalfSlab("diamond_slab",
+            Blocks.DIAMOND_BLOCK.getDefaultState(), DIAMOND, 5F, 10F,
+            SoundType.METAL, "pickaxe", 2, false, (BlockBaseDoubleSlab) diamond_double_slab);
+    public static final Block diamond_stairs = new BlockBaseStairs("diamond_stairs",
+            Blocks.DIAMOND_BLOCK.getDefaultState(), DIAMOND, 5F, 10F, SoundType.METAL, "pickaxe", 2, false);
+
+    // Emerald
+    public static final Block emerald_double_slab = new BlockBaseDoubleSlab("emerald_double_slab",
+            Blocks.EMERALD_BLOCK.getDefaultState(), EMERALD, 5F, 10F, SoundType.METAL, "pickaxe", 2, false);
+    public static final Block emerald_slab = new BlockBaseHalfSlab("emerald_slab",
+            Blocks.EMERALD_BLOCK.getDefaultState(), EMERALD, 5F, 10F,
+            SoundType.METAL, "pickaxe", 2, false, (BlockBaseDoubleSlab) emerald_double_slab);
+    public static final Block emerald_stairs = new BlockBaseStairs("emerald_stairs",
+            Blocks.EMERALD_BLOCK.getDefaultState(), EMERALD, 5F, 10F, SoundType.METAL, "pickaxe", 2, false);
 }

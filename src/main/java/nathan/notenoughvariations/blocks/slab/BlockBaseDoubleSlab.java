@@ -4,7 +4,12 @@ import nathan.notenoughvariations.init.BlockInit;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.world.World;
 
 import javax.annotation.Nonnull;
 import java.util.Random;
@@ -38,7 +43,7 @@ public class BlockBaseDoubleSlab extends BlockBaseSlab {
     @Nonnull
     @Override
     public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-        String unlocalizedName = state.getBlock().getUnlocalizedName().toLowerCase();
+        final String unlocalizedName = state.getBlock().getUnlocalizedName().toLowerCase();
 
         if (unlocalizedName.contains("concrete")) {
             if (unlocalizedName.contains("orange")) {
@@ -136,8 +141,24 @@ public class BlockBaseDoubleSlab extends BlockBaseSlab {
             return Item.getItemFromBlock(BlockInit.red_nether_bricks_slab);
         } else if (unlocalizedName.contains("end_stone_bricks")) {
             return Item.getItemFromBlock(BlockInit.end_stone_bricks_slab);
+        } else if (unlocalizedName.contains("iron")) {
+            return Item.getItemFromBlock(BlockInit.iron_slab);
+        } else if (unlocalizedName.contains("redstone")) {
+            return Item.getItemFromBlock(BlockInit.redstone_slab);
+        } else if (unlocalizedName.contains("gold")) {
+            return Item.getItemFromBlock(BlockInit.gold_slab);
+        } else if (unlocalizedName.contains("diamond")) {
+            return Item.getItemFromBlock(BlockInit.diamond_slab);
+        } else if (unlocalizedName.contains("emerald")) {
+            return Item.getItemFromBlock(BlockInit.emerald_slab);
         } else {
-            throw new IllegalStateException("Unexpected value: " + state.getBlock());
+            return Item.getItemFromBlock(BlockInit.white_concrete_slab);
         }
+    }
+
+    @Nonnull
+    @Override
+    public ItemStack getPickBlock(@Nonnull IBlockState state, @Nonnull RayTraceResult target, @Nonnull World world, @Nonnull BlockPos pos, @Nonnull EntityPlayer player) {
+        return new ItemStack(this.getItemDropped(state, null, 0));
     }
 }

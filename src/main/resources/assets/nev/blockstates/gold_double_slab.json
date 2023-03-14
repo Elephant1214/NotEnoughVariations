@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "variant=default": {
+            "model": "gold_block"
+        }
+    }
+}

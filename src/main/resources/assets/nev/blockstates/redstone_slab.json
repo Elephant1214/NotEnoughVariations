@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/redstone/half_slab_redstone"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/redstone/upper_slab_redstone"
+        }
+    }
+}

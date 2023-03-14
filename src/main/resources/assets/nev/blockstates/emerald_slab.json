@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/emerald/half_slab_emerald"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/emerald/upper_slab_emerald"
+        }
+    }
+}

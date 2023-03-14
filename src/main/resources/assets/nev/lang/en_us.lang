@@ -110,5 +110,25 @@ tile.nev.red_nether_brick_stairs.name=Red Nether Brick Stairs
 tile.nev.end_stone_bricks_slab.name=End Stone Bricks Slab
 tile.nev.end_stone_brick_stairs.name=End Stone Brick Stairs
 
+# Iron variations
+tile.nev.iron_slab.name=Iron Slab
+tile.nev.iron_stairs.name=Iron Stairs
+
+# Redstone variations
+tile.nev.redstone_slab.name=Redstone Slab
+tile.nev.redstone_stairs.name=Redstone Stairs
+
+# Gold variations
+tile.nev.gold_slab.name=Gold Slab
+tile.nev.gold_stairs.name=Gold Stairs
+
+# Diamond variations
+tile.nev.diamond_slab.name=Diamond Slab
+tile.nev.diamond_stairs.name=Diamond Stairs
+
+# Emerald variations
+tile.nev.emerald_slab.name=Emerald Slab
+tile.nev.emerald_stairs.name=Emerald Stairs
+
 # Creative inventory tab
 itemGroup.nev.not_enough_variations=Not Enough Variations

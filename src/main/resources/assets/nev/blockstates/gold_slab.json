@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=bottom,variant=default": {
+            "model": "nev:slabs/gold/half_slab_gold"
+        },
+        "half=top,variant=default": {
+            "model": "nev:slabs/gold/upper_slab_gold"
+        }
+    }
+}
