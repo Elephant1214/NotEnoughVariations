@@ -118,7 +118,7 @@ public abstract class BlockBaseSlab extends BlockSlab {
 
     @Override
     public int getWeakPower(@Nonnull IBlockState blockState, @Nonnull IBlockAccess blockAccess, @Nonnull BlockPos pos, @Nonnull EnumFacing side) {
-        return this.canProvidePower ? 15 : super.getWeakPower(blockState, blockAccess, pos, side);
+        return this.canProvidePower ? this.isDouble() ? 15 : 7 : super.getWeakPower(blockState, blockAccess, pos, side);
     }
 
     @Nonnull
