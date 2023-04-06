@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond_block",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:diamond_slab",
+        "count": 6,
+        "data": 0
+    }
+}

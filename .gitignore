@@ -32,3 +32,10 @@ bin/
 
 run/
 runServer/
+
+# Python scripts
+
+create_block_models.py
+create_blockstates.py
+create_item_models.py
+create_recipes.py

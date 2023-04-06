@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "R  ",
+        "RR ",
+        "RRR"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone_block",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:redstone_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

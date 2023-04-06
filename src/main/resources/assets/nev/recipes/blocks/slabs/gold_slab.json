@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gold_block",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:gold_slab",
+        "count": 6,
+        "data": 0
+    }
+}

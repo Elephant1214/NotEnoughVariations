@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "G  ",
+        "GG ",
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gold_block",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:gold_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

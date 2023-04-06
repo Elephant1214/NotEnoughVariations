@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "EEE"
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:emerald_block",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:emerald_slab",
+        "count": 6,
+        "data": 0
+    }
+}

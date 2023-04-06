@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "I  ",
+        "II ",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_block",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:iron_stairs",
+        "count": 4,
+        "data": 0
+    }
+}

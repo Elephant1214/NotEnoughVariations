@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "E  ",
+        "EE ",
+        "EEE"
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:emerald_block",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "nev:emerald_stairs",
+        "count": 4,
+        "data": 0
+    }
+}
